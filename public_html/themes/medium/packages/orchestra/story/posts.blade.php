@@ -13,7 +13,7 @@
 <article id="{{ $post->id }}" class="post">
 	<h2 class="entry-title">
 		<a href="{{ $post->link }}" class="no-link" title="Permalink to {{{ $post->title }}}" rel="bookmark">
-			{{{ $post->title }}}
+			{{ $post->title }}
 		</a>
 	</h2>
 
