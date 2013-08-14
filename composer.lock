@@ -1061,12 +1061,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/control.git",
-                "reference": "0e814abba8e54043b70b7e850f4bd341b8439b66"
+                "reference": "bb0430f57c03492ab936df0457e5f3707e508833"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/control/zipball/0e814abba8e54043b70b7e850f4bd341b8439b66",
-                "reference": "0e814abba8e54043b70b7e850f4bd341b8439b66",
+                "url": "https://api.github.com/repos/orchestral/control/zipball/bb0430f57c03492ab936df0457e5f3707e508833",
+                "reference": "bb0430f57c03492ab936df0457e5f3707e508833",
                 "shasum": ""
             },
             "require": {
@@ -1110,7 +1110,7 @@
                 "theme",
                 "timezone"
             ],
-            "time": "2013-08-11 09:35:45"
+            "time": "2013-08-14 18:45:43"
         },
         {
             "name": "orchestra/extension",
@@ -1235,12 +1235,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/foundation.git",
-                "reference": "b58c8b7bec9c9f947dcfc13f75eed1fd2cb86c33"
+                "reference": "28f98cda7aed033fbda48c11ee4603ec6c2d1c5d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/foundation/zipball/b58c8b7bec9c9f947dcfc13f75eed1fd2cb86c33",
-                "reference": "b58c8b7bec9c9f947dcfc13f75eed1fd2cb86c33",
+                "url": "https://api.github.com/repos/orchestral/foundation/zipball/28f98cda7aed033fbda48c11ee4603ec6c2d1c5d",
+                "reference": "28f98cda7aed033fbda48c11ee4603ec6c2d1c5d",
                 "shasum": ""
             },
             "require": {
@@ -1295,7 +1295,7 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2013-08-14 03:09:47"
+            "time": "2013-08-14 18:42:39"
         },
         {
             "name": "orchestra/html",
@@ -2334,12 +2334,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Finder.git",
-                "reference": "v2.3.3"
+                "reference": "4a0fee5b86f5bbd9dfdc11ec124eba2915737ce1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/Finder/zipball/v2.3.3",
-                "reference": "v2.3.3",
+                "url": "https://api.github.com/repos/symfony/Finder/zipball/4a0fee5b86f5bbd9dfdc11ec124eba2915737ce1",
+                "reference": "4a0fee5b86f5bbd9dfdc11ec124eba2915737ce1",
                 "shasum": ""
             },
             "require": {
@@ -2372,7 +2372,7 @@
             ],
             "description": "Symfony Finder Component",
             "homepage": "http://symfony.com",
-            "time": "2013-07-21 12:12:18"
+            "time": "2013-08-13 20:18:00"
         },
         {
             "name": "symfony/http-foundation",
@@ -2502,12 +2502,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Process.git",
-                "reference": "3f807d3604c456389da15988d404cecb35e23edc"
+                "reference": "00080d949a0c0de2f3c3162b3df76cf576fd38d0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/Process/zipball/3f807d3604c456389da15988d404cecb35e23edc",
-                "reference": "3f807d3604c456389da15988d404cecb35e23edc",
+                "url": "https://api.github.com/repos/symfony/Process/zipball/00080d949a0c0de2f3c3162b3df76cf576fd38d0",
+                "reference": "00080d949a0c0de2f3c3162b3df76cf576fd38d0",
                 "shasum": ""
             },
             "require": {
@@ -2540,7 +2540,7 @@
             ],
             "description": "Symfony Process Component",
             "homepage": "http://symfony.com",
-            "time": "2013-08-13 20:18:00"
+            "time": "2013-08-14 12:58:19"
         },
         {
             "name": "symfony/routing",
