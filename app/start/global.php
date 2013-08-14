@@ -81,3 +81,18 @@ App::down(function()
 */
 
 require app_path().'/filters.php';
+
+/*
+|--------------------------------------------------------------------------
+| Attach Menu to Orchestra Platform
+|--------------------------------------------------------------------------
+|
+| Just to make it easy to toggle from Orchestra Platform to the website.
+|
+*/
+
+Event::listen('orchestra.started: admin', function ()
+{
+	$menu = Orchestra\App::menu();
+	$menu->add('website', '^:home')->title('Website')->link(handles('/'));
+});
