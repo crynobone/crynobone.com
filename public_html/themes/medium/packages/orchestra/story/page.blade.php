@@ -12,7 +12,7 @@
 	</h2>
 
 	<div class="entry-content">
-		{{ $page->content }}
+		{{ $page->body }}
 	</div>
 </article>
 @stop
