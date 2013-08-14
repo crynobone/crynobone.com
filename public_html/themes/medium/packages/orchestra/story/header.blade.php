@@ -33,5 +33,8 @@ use Orchestra\Support\Facades\Theme; ?>
 					</a>
 				</h1>
 				<h3>{{ memorize('site.description') }}</h3>
+				
+				<iframe src="http://ghbtns.com/github-btn.html?user=crynobone&amp;type=follow&amp;count=true" 
+					allowtransparency="true" frameborder="0" scrolling="0" width="165" height="20"></iframe>
 			</hgroup>
 		</header>
