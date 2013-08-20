@@ -1235,12 +1235,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/foundation.git",
-                "reference": "405b4ea98d4acc61ae4881947b9a6e5b405ae707"
+                "reference": "82460fd7d7aaed8b4141ce301994a808ee1a8199"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/foundation/zipball/405b4ea98d4acc61ae4881947b9a6e5b405ae707",
-                "reference": "405b4ea98d4acc61ae4881947b9a6e5b405ae707",
+                "url": "https://api.github.com/repos/orchestral/foundation/zipball/82460fd7d7aaed8b4141ce301994a808ee1a8199",
+                "reference": "82460fd7d7aaed8b4141ce301994a808ee1a8199",
                 "shasum": ""
             },
             "require": {
@@ -1295,7 +1295,7 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2013-08-19 03:06:42"
+            "time": "2013-08-20 14:57:34"
         },
         {
             "name": "orchestra/html",
@@ -2233,12 +2233,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/EventDispatcher.git",
-                "reference": "v2.3.3"
+                "reference": "41c9826457c65fa3cf746f214985b7ca9cba42f8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/EventDispatcher/zipball/v2.3.3",
-                "reference": "v2.3.3",
+                "url": "https://api.github.com/repos/symfony/EventDispatcher/zipball/41c9826457c65fa3cf746f214985b7ca9cba42f8",
+                "reference": "41c9826457c65fa3cf746f214985b7ca9cba42f8",
                 "shasum": ""
             },
             "require": {
@@ -2607,12 +2607,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Translation.git",
-                "reference": "v2.3.3"
+                "reference": "6fa9941fbfef37d6113c3bddc687fc507b846feb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/Translation/zipball/v2.3.3",
-                "reference": "v2.3.3",
+                "url": "https://api.github.com/repos/symfony/Translation/zipball/6fa9941fbfef37d6113c3bddc687fc507b846feb",
+                "reference": "6fa9941fbfef37d6113c3bddc687fc507b846feb",
                 "shasum": ""
             },
             "require": {
