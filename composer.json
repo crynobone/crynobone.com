@@ -2,7 +2,8 @@
 	"require": {
 		"orchestra/foundation": "2.1.*",
 		"orchestra/control": "2.1.*",
-		"orchestra/story": "2.1.*"
+		"orchestra/story": "2.1.*",
+		"doctrine/dbal": "v2.4.0"
 	},
 	"autoload": {
 		"classmap": [
