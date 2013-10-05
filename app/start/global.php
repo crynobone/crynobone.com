@@ -96,3 +96,6 @@ Event::listen('orchestra.started: admin', function ()
 	$menu = Orchestra\App::menu();
 	$menu->add('website', '^:home')->title('Website')->link(handles('/'));
 });
+
+Orchestra\Asset::container('orchestra/foundation::header')->addVersioning();
+Orchestra\Asset::container('orchestra/foundation::footer')->addVersioning();
