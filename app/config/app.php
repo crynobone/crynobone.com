@@ -100,7 +100,6 @@ return array(
 		'Illuminate\Session\SessionServiceProvider',
 		'Illuminate\Validation\ValidationServiceProvider',
 		'Illuminate\View\ViewServiceProvider',
-		'Illuminate\Workbench\WorkbenchServiceProvider',
 
 		'Orchestra\Asset\AssetServiceProvider',
 		'Orchestra\Auth\AuthServiceProvider',
