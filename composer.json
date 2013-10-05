@@ -2,9 +2,14 @@
 	"require": {
 		"orchestra/foundation": "2.1.*",
 		"orchestra/control": "2.1.*",
-		"orchestra/story": "2.1.*",
-		"doctrine/dbal": "v2.4.0"
+		"orchestra/story": "2.1.*"
 	},
+	"repositories": [
+		{
+			"type": "vcs",
+			"url": "https://github.com/laravel/boris"
+		}
+	],
 	"autoload": {
 		"classmap": [
 			"app/commands",
