@@ -28,7 +28,7 @@ $app->redirectIfTrailingSlash();
 
 $env = $app->detectEnvironment(array(
 
-	'local' => array('crynobone.dev', 'Macbook-Air.local'),
+    'local' => array('crynobone.dev', 'Macbook-Air.local'),
 
 ));
 

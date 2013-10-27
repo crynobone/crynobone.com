@@ -12,19 +12,19 @@
 */
 
 $provides = array(
-	'Illuminate\Foundation\Providers\CommandCreatorServiceProvider',
-	'Illuminate\Session\CommandsServiceProvider',
-	'Illuminate\Foundation\Providers\ComposerServiceProvider',
-	'Illuminate\Foundation\Providers\KeyGeneratorServiceProvider',
-	'Illuminate\Foundation\Providers\MaintenanceServiceProvider',
-	'Illuminate\Foundation\Providers\OptimizeServiceProvider',
-	'Illuminate\Foundation\Providers\RouteListServiceProvider',
-	'Illuminate\Foundation\Providers\ServerServiceProvider',
-	'Illuminate\Foundation\Providers\TinkerServiceProvider',
+    'Illuminate\Foundation\Providers\CommandCreatorServiceProvider',
+    'Illuminate\Session\CommandsServiceProvider',
+    'Illuminate\Foundation\Providers\ComposerServiceProvider',
+    'Illuminate\Foundation\Providers\KeyGeneratorServiceProvider',
+    'Illuminate\Foundation\Providers\MaintenanceServiceProvider',
+    'Illuminate\Foundation\Providers\OptimizeServiceProvider',
+    'Illuminate\Foundation\Providers\RouteListServiceProvider',
+    'Illuminate\Foundation\Providers\ServerServiceProvider',
+    'Illuminate\Foundation\Providers\TinkerServiceProvider',
+
+    'Orchestra\Debug\CommandServiceProvider',
 );
 
-foreach ($provides as $provide)
-{
-	App::register($provide);
+foreach ($provides as $provide) {
+    App::register($provide);
 }
-
