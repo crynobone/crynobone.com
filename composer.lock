@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "cad69b889cbc91fbc5dfffccc2c327db",
+    "hash": "a377fe4ba963964cc96b04e1a346bf1d",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -54,16 +54,16 @@
         },
         {
             "name": "d11wtq/boris",
-            "version": "v1.0.5",
+            "version": "v1.0.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/d11wtq/boris.git",
-                "reference": "33b68f5b454a9bd871aefb5c9dac493fd07d7757"
+                "reference": "125dd4e5752639af7678a22ea597115646d89c6e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/d11wtq/boris/zipball/33b68f5b454a9bd871aefb5c9dac493fd07d7757",
-                "reference": "33b68f5b454a9bd871aefb5c9dac493fd07d7757",
+                "url": "https://api.github.com/repos/d11wtq/boris/zipball/125dd4e5752639af7678a22ea597115646d89c6e",
+                "reference": "125dd4e5752639af7678a22ea597115646d89c6e",
                 "shasum": ""
             },
             "require": {
@@ -84,11 +84,11 @@
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
-            "time": "2013-10-05 05:55:21"
+            "time": "2014-01-17 12:21:18"
         },
         {
             "name": "dflydev/markdown",
-            "version": "dev-master",
+            "version": "v1.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/dflydev/dflydev-markdown.git",
@@ -147,27 +147,22 @@
         },
         {
             "name": "evenement/evenement",
-            "version": "1.0.x-dev",
+            "version": "v1.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/igorw/evenement.git",
-                "reference": "8b0918f8374327dfed4408fe467980ab41d556dd"
+                "reference": "fa966683e7df3e5dd5929d984a44abfbd6bafe8d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/igorw/evenement/zipball/8b0918f8374327dfed4408fe467980ab41d556dd",
-                "reference": "8b0918f8374327dfed4408fe467980ab41d556dd",
+                "url": "https://api.github.com/repos/igorw/evenement/zipball/fa966683e7df3e5dd5929d984a44abfbd6bafe8d",
+                "reference": "fa966683e7df3e5dd5929d984a44abfbd6bafe8d",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.0"
             },
             "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "2.0-dev"
-                }
-            },
             "autoload": {
                 "psr-0": {
                     "Evenement": "src"
@@ -188,20 +183,20 @@
             "keywords": [
                 "event-dispatcher"
             ],
-            "time": "2012-12-29 17:04:52"
+            "time": "2012-05-30 15:01:08"
         },
         {
             "name": "filp/whoops",
-            "version": "1.0.7",
+            "version": "1.0.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/filp/whoops.git",
-                "reference": "12e144c788b275e5869ac15eda7bd0ae5da775bd"
+                "reference": "91e3fd4b0812017ffbeb24add55330664e1ea32a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/filp/whoops/zipball/12e144c788b275e5869ac15eda7bd0ae5da775bd",
-                "reference": "12e144c788b275e5869ac15eda7bd0ae5da775bd",
+                "url": "https://api.github.com/repos/filp/whoops/zipball/91e3fd4b0812017ffbeb24add55330664e1ea32a",
+                "reference": "91e3fd4b0812017ffbeb24add55330664e1ea32a",
                 "shasum": ""
             },
             "require": {
@@ -239,11 +234,11 @@
                 "whoops",
                 "zf2"
             ],
-            "time": "2013-06-10 12:22:13"
+            "time": "2013-12-04 14:19:30"
         },
         {
             "name": "ircmaxell/password-compat",
-            "version": "1.0.x-dev",
+            "version": "1.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ircmaxell/password_compat.git",
@@ -330,30 +325,31 @@
         },
         {
             "name": "laravel/framework",
-            "version": "dev-master",
+            "version": "v4.1.18",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "126c928e38b56ded03c85c4ec6a00ea6fc08f351"
+                "reference": "ad5a69c4fb949a7c7c4a57a356c6288f4455749f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/126c928e38b56ded03c85c4ec6a00ea6fc08f351",
-                "reference": "126c928e38b56ded03c85c4ec6a00ea6fc08f351",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/ad5a69c4fb949a7c7c4a57a356c6288f4455749f",
+                "reference": "ad5a69c4fb949a7c7c4a57a356c6288f4455749f",
                 "shasum": ""
             },
             "require": {
                 "classpreloader/classpreloader": "1.0.*",
                 "d11wtq/boris": "1.0.*",
-                "filp/whoops": "1.0.7",
+                "filp/whoops": "1.0.10",
                 "ircmaxell/password-compat": "1.0.*",
                 "jeremeamia/superclosure": "1.0.*",
-                "monolog/monolog": "1.6.*",
+                "monolog/monolog": "1.*",
                 "nesbot/carbon": "1.*",
                 "patchwork/utf8": "1.1.*",
                 "php": ">=5.3.0",
                 "phpseclib/phpseclib": "0.3.*",
                 "predis/predis": "0.8.*",
+                "stack/builder": "1.0.*",
                 "swiftmailer/swiftmailer": "5.0.*",
                 "symfony/browser-kit": "2.4.*",
                 "symfony/console": "2.4.*",
@@ -364,6 +360,7 @@
                 "symfony/http-foundation": "2.4.*",
                 "symfony/http-kernel": "2.4.*",
                 "symfony/process": "2.4.*",
+                "symfony/routing": "2.4.*",
                 "symfony/translation": "2.4.*"
             },
             "replace": {
@@ -396,7 +393,7 @@
                 "illuminate/workbench": "self.version"
             },
             "require-dev": {
-                "aws/aws-sdk-php": "2.4.*",
+                "aws/aws-sdk-php": "2.5.*",
                 "iron-io/iron_mq": "1.4.*",
                 "mockery/mockery": "0.8.0",
                 "pda/pheanstalk": "2.1.*",
@@ -441,20 +438,20 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2013-10-27 00:08:39"
+            "time": "2014-01-17 20:04:20"
         },
         {
             "name": "monolog/monolog",
-            "version": "dev-master",
+            "version": "1.7.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Seldaek/monolog.git",
-                "reference": "c600461b0f1a8943696f931fc11db475193f62cd"
+                "reference": "6225b22de9dcf36546be3a0b2fa8e3d986153f57"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/c600461b0f1a8943696f931fc11db475193f62cd",
-                "reference": "c600461b0f1a8943696f931fc11db475193f62cd",
+                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/6225b22de9dcf36546be3a0b2fa8e3d986153f57",
+                "reference": "6225b22de9dcf36546be3a0b2fa8e3d986153f57",
                 "shasum": ""
             },
             "require": {
@@ -462,22 +459,26 @@
                 "psr/log": "~1.0"
             },
             "require-dev": {
+                "aws/aws-sdk-php": "~2.4.8",
                 "doctrine/couchdb": "dev-master",
                 "mlehner/gelf-php": "1.0.*",
                 "phpunit/phpunit": "~3.7.0",
-                "raven/raven": "0.5.*"
+                "raven/raven": "0.5.*",
+                "ruflin/elastica": "0.90.*"
             },
             "suggest": {
+                "aws/aws-sdk-php": "Allow sending log messages to AWS services like DynamoDB",
                 "doctrine/couchdb": "Allow sending log messages to a CouchDB server",
                 "ext-amqp": "Allow sending log messages to an AMQP server (1.0+ required)",
                 "ext-mongo": "Allow sending log messages to a MongoDB server",
                 "mlehner/gelf-php": "Allow sending log messages to a GrayLog2 server",
-                "raven/raven": "Allow sending log messages to a Sentry server"
+                "raven/raven": "Allow sending log messages to a Sentry server",
+                "ruflin/elastica": "Allow sending log messages to an Elastic Search server"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.6.x-dev"
+                    "dev-master": "1.7.x-dev"
                 }
             },
             "autoload": {
@@ -504,24 +505,27 @@
                 "logging",
                 "psr-3"
             ],
-            "time": "2013-10-24 12:32:52"
+            "time": "2013-11-14 19:48:31"
         },
         {
             "name": "nesbot/carbon",
-            "version": "1.4.0",
+            "version": "1.8.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/briannesbitt/Carbon.git",
-                "reference": "06f0b8a99a90c5392ceccb09b75b74ff6c08ec07"
+                "reference": "21c4cb4301969c7d85aee8a62eefdfa881413af0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/06f0b8a99a90c5392ceccb09b75b74ff6c08ec07",
-                "reference": "06f0b8a99a90c5392ceccb09b75b74ff6c08ec07",
+                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/21c4cb4301969c7d85aee8a62eefdfa881413af0",
+                "reference": "21c4cb4301969c7d85aee8a62eefdfa881413af0",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*"
             },
             "type": "library",
             "autoload": {
@@ -547,24 +551,23 @@
                 "datetime",
                 "time"
             ],
-            "time": "2013-09-09 02:39:19"
+            "time": "2014-01-07 05:10:44"
         },
         {
             "name": "nikic/php-parser",
-            "version": "dev-master",
+            "version": "v0.9.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nikic/PHP-Parser.git",
-                "reference": "700847e2951942200b479c413aa2984b5364799b"
+                "reference": "1e5e280ae88a27effa2ae4aa2bd088494ed8594f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/700847e2951942200b479c413aa2984b5364799b",
-                "reference": "700847e2951942200b479c413aa2984b5364799b",
+                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/1e5e280ae88a27effa2ae4aa2bd088494ed8594f",
+                "reference": "1e5e280ae88a27effa2ae4aa2bd088494ed8594f",
                 "shasum": ""
             },
             "require": {
-                "ext-tokenizer": "*",
                 "php": ">=5.2"
             },
             "type": "library",
@@ -592,20 +595,20 @@
                 "parser",
                 "php"
             ],
-            "time": "2013-09-28 11:21:30"
+            "time": "2013-08-25 17:11:40"
         },
         {
             "name": "orchestra/asset",
-            "version": "dev-master",
+            "version": "v2.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/asset.git",
-                "reference": "393c2ae324ac8c958bfdfa81299a7bd2a89f8321"
+                "reference": "1b8f189f2d2c48225c51f47b8f539dc70b8532c1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/asset/zipball/393c2ae324ac8c958bfdfa81299a7bd2a89f8321",
-                "reference": "393c2ae324ac8c958bfdfa81299a7bd2a89f8321",
+                "url": "https://api.github.com/repos/orchestral/asset/zipball/1b8f189f2d2c48225c51f47b8f539dc70b8532c1",
+                "reference": "1b8f189f2d2c48225c51f47b8f539dc70b8532c1",
                 "shasum": ""
             },
             "require": {
@@ -614,7 +617,8 @@
             },
             "require-dev": {
                 "illuminate/container": "4.1.*",
-                "mockery/mockery": "0.8.0"
+                "illuminate/support": "4.1.*",
+                "mockery/mockery": "0.8.*"
             },
             "suggest": {
                 "laravel/framework": "Allow using orchestra/asset component outside of Orchestra Platform 2",
@@ -623,7 +627,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.1-dev"
+                    "dev-master": "2.2-dev"
                 }
             },
             "autoload": {
@@ -643,27 +647,27 @@
                 }
             ],
             "description": "Orchestra Platform 2 Asset Component",
-            "homepage": "http://orchestraplatform.com/docs/2.0/components/asset/",
+            "homepage": "http://orchestraplatform.com/docs/latest/components/asset/",
             "keywords": [
                 "asset",
                 "laravel",
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2013-10-21 03:21:11"
+            "time": "2013-12-17 23:58:55"
         },
         {
             "name": "orchestra/auth",
-            "version": "dev-master",
+            "version": "v2.1.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/auth.git",
-                "reference": "dfae60a478600d1b49194839f415065f132f8b06"
+                "reference": "d27794af9ebece7f73a492dd3521f6dc60a1d70d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/auth/zipball/dfae60a478600d1b49194839f415065f132f8b06",
-                "reference": "dfae60a478600d1b49194839f415065f132f8b06",
+                "url": "https://api.github.com/repos/orchestral/auth/zipball/d27794af9ebece7f73a492dd3521f6dc60a1d70d",
+                "reference": "d27794af9ebece7f73a492dd3521f6dc60a1d70d",
                 "shasum": ""
             },
             "require": {
@@ -672,7 +676,8 @@
             },
             "require-dev": {
                 "illuminate/auth": "4.1.*",
-                "mockery/mockery": "0.8.0",
+                "illuminate/database": "4.1.*",
+                "mockery/mockery": "0.8.*",
                 "patchwork/utf8": "1.1.*"
             },
             "suggest": {
@@ -683,7 +688,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.1-dev"
+                    "dev-master": "2.2-dev"
                 }
             },
             "autoload": {
@@ -703,7 +708,7 @@
                 }
             ],
             "description": "Orchestra Platform 2 Auth Component",
-            "homepage": "http://orchestraplatform.com/docs/2.0/components/auth/",
+            "homepage": "http://orchestraplatform.com/docs/latest/components/auth/",
             "keywords": [
                 "acl",
                 "auth",
@@ -712,27 +717,27 @@
                 "orchestral",
                 "rbac"
             ],
-            "time": "2013-10-21 01:52:34"
+            "time": "2014-01-16 18:08:42"
         },
         {
             "name": "orchestra/control",
-            "version": "dev-master",
+            "version": "v2.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/control.git",
-                "reference": "ff397f7a0af19203023a3f1e8c4ae536e0940156"
+                "reference": "03183efcb5bdf94f37c5f52cb2b67bae92374700"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/control/zipball/ff397f7a0af19203023a3f1e8c4ae536e0940156",
-                "reference": "ff397f7a0af19203023a3f1e8c4ae536e0940156",
+                "url": "https://api.github.com/repos/orchestral/control/zipball/03183efcb5bdf94f37c5f52cb2b67bae92374700",
+                "reference": "03183efcb5bdf94f37c5f52cb2b67bae92374700",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.3"
             },
             "require-dev": {
-                "mockery/mockery": "0.8.0",
+                "mockery/mockery": "0.8.*",
                 "orchestra/foundation": "2.1.*",
                 "orchestra/support": "2.1.*",
                 "orchestra/testbench": "2.1.*"
@@ -740,7 +745,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.1-dev"
+                    "dev-master": "2.2-dev"
                 }
             },
             "autoload": {
@@ -769,31 +774,34 @@
                 "theme",
                 "timezone"
             ],
-            "time": "2013-10-20 11:27:23"
+            "time": "2014-01-07 23:14:54"
         },
         {
             "name": "orchestra/debug",
-            "version": "dev-master",
+            "version": "v2.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/debug.git",
-                "reference": "9b5b233c1fed14db94af0a569099b85e07b450f2"
+                "reference": "bb3224dabac5f10ad4bed1780ed752a4cf316889"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/debug/zipball/9b5b233c1fed14db94af0a569099b85e07b450f2",
-                "reference": "9b5b233c1fed14db94af0a569099b85e07b450f2",
+                "url": "https://api.github.com/repos/orchestral/debug/zipball/bb3224dabac5f10ad4bed1780ed752a4cf316889",
+                "reference": "bb3224dabac5f10ad4bed1780ed752a4cf316889",
                 "shasum": ""
             },
             "require": {
+                "orchestra/support": "2.1.*",
+                "php": ">=5.3.3",
                 "react/socket": "0.3.*"
             },
             "require-dev": {
                 "illuminate/console": "4.1.*",
                 "illuminate/container": "4.1.*",
+                "illuminate/events": "4.1.*",
                 "illuminate/support": "4.1.*",
                 "mockery/mockery": "0.8.0",
-                "monolog/monolog": "1.6.*"
+                "monolog/monolog": "1.*"
             },
             "suggest": {
                 "laravel/framework": "Allow using orchestra/debug as added feature for Laravel 4.*"
@@ -801,7 +809,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.1-dev"
+                    "dev-master": "2.2-dev"
                 }
             },
             "autoload": {
@@ -824,25 +832,26 @@
                 }
             ],
             "description": "Artisan Debug Profiler for Laravel 4",
+            "homepage": "http://orchestraplatform.com/docs/latest/components/debug/",
             "keywords": [
                 "laravel",
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2013-10-26 04:30:16"
+            "time": "2013-12-28 03:40:15"
         },
         {
             "name": "orchestra/extension",
-            "version": "dev-master",
+            "version": "v2.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/extension.git",
-                "reference": "7404cf0f33e7e2778d4e2960a97852a7d348da6e"
+                "reference": "ffa1729832f9ca7e9ec31938f137944423f3e313"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/extension/zipball/7404cf0f33e7e2778d4e2960a97852a7d348da6e",
-                "reference": "7404cf0f33e7e2778d4e2960a97852a7d348da6e",
+                "url": "https://api.github.com/repos/orchestral/extension/zipball/ffa1729832f9ca7e9ec31938f137944423f3e313",
+                "reference": "ffa1729832f9ca7e9ec31938f137944423f3e313",
                 "shasum": ""
             },
             "require": {
@@ -850,9 +859,13 @@
                 "php": ">=5.3.3"
             },
             "require-dev": {
+                "illuminate/config": "4.1.*",
+                "illuminate/console": "4.1.*",
                 "illuminate/container": "4.1.*",
-                "illuminate/support": "4.0.*",
-                "mockery/mockery": "0.8.0"
+                "illuminate/events": "4.1.*",
+                "illuminate/http": "4.1.*",
+                "illuminate/support": "4.1.*",
+                "mockery/mockery": "0.8.*"
             },
             "suggest": {
                 "laravel/framework": "Allow using orchestra/extension component outside of Orchestra Platform 2",
@@ -861,7 +874,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.1-dev"
+                    "dev-master": "2.2-dev"
                 }
             },
             "autoload": {
@@ -881,27 +894,27 @@
                 }
             ],
             "description": "Orchestra Platform 2 Extension Component",
-            "homepage": "http://orchestraplatform.com/docs/2.0/components/extension/",
+            "homepage": "http://orchestraplatform.com/docs/latest/components/extension/",
             "keywords": [
                 "extension",
                 "laravel",
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2013-10-21 10:23:19"
+            "time": "2014-01-10 13:55:27"
         },
         {
             "name": "orchestra/facile",
-            "version": "dev-master",
+            "version": "v2.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/facile.git",
-                "reference": "b1ed1d2469afab043cb8866dc179d5b5f79f4f13"
+                "reference": "0b49036d6eb1eded9a2bd59784047031f359c0e1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/facile/zipball/b1ed1d2469afab043cb8866dc179d5b5f79f4f13",
-                "reference": "b1ed1d2469afab043cb8866dc179d5b5f79f4f13",
+                "url": "https://api.github.com/repos/orchestral/facile/zipball/0b49036d6eb1eded9a2bd59784047031f359c0e1",
+                "reference": "0b49036d6eb1eded9a2bd59784047031f359c0e1",
                 "shasum": ""
             },
             "require": {
@@ -909,10 +922,10 @@
                 "php": ">=5.3.3"
             },
             "require-dev": {
-                "illuminate/container": "4.1.*",
                 "illuminate/http": "4.1.*",
                 "illuminate/pagination": "4.1.*",
-                "mockery/mockery": "0.8.0"
+                "illuminate/view": "4.1.*",
+                "mockery/mockery": "0.8.*"
             },
             "suggest": {
                 "laravel/framework": "Allow using orchestra/facile component outside of Orchestra Platform 2",
@@ -921,7 +934,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.1-dev"
+                    "dev-master": "2.2-dev"
                 }
             },
             "autoload": {
@@ -941,26 +954,26 @@
                 }
             ],
             "description": "Orchestra Platform 2 Facile Component",
-            "homepage": "http://orchestraplatform.com/docs/2.0/components/facile/",
+            "homepage": "http://orchestraplatform.com/docs/latest/components/facile/",
             "keywords": [
                 "laravel",
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2013-10-21 03:05:34"
+            "time": "2013-12-24 01:46:22"
         },
         {
             "name": "orchestra/foundation",
-            "version": "dev-master",
+            "version": "v2.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/foundation.git",
-                "reference": "14028be9377af0a9c93ba6e9de8ec05daa7169f3"
+                "reference": "7bf95a0f970df081e78fe359b2bfb0a43c65cca1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/foundation/zipball/14028be9377af0a9c93ba6e9de8ec05daa7169f3",
-                "reference": "14028be9377af0a9c93ba6e9de8ec05daa7169f3",
+                "url": "https://api.github.com/repos/orchestral/foundation/zipball/7bf95a0f970df081e78fe359b2bfb0a43c65cca1",
+                "reference": "7bf95a0f970df081e78fe359b2bfb0a43c65cca1",
                 "shasum": ""
             },
             "require": {
@@ -973,6 +986,8 @@
                 "orchestra/html": "2.1.*",
                 "orchestra/memory": "2.1.*",
                 "orchestra/model": "2.1.*",
+                "orchestra/notifier": "2.1.*",
+                "orchestra/optimize": "2.1.*",
                 "orchestra/resources": "2.1.*",
                 "orchestra/support": "2.1.*",
                 "orchestra/translation": "2.1.*",
@@ -981,15 +996,15 @@
                 "php": ">=5.3.3"
             },
             "require-dev": {
-                "mockery/mockery": "0.8.0",
+                "mockery/mockery": "0.8.*",
                 "orchestra/testbench": "2.1.*",
-                "packagist/yuicompressor-bin": "dev-master",
-                "twbs/bootstrap": "3.0.*"
+                "packagist/yuicompressor-bin": "2.4.8",
+                "twbs/bootstrap": "3.0.*@stable"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.1-dev"
+                    "dev-master": "2.2-dev"
                 }
             },
             "autoload": {
@@ -1012,26 +1027,26 @@
                 }
             ],
             "description": "Orchestra Platform 2 Foundation Component",
-            "homepage": "http://orchestraplatform.com/docs/2.0/",
+            "homepage": "http://orchestraplatform.com/docs/latest/",
             "keywords": [
                 "laravel",
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2013-10-26 07:38:31"
+            "time": "2014-01-19 01:05:12"
         },
         {
             "name": "orchestra/html",
-            "version": "dev-master",
+            "version": "v2.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/html.git",
-                "reference": "3f53bddfe056424adb2dd5fa9a494745143c4b32"
+                "reference": "1e408eda4c96b42372910c0815734e3d5f168b57"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/html/zipball/3f53bddfe056424adb2dd5fa9a494745143c4b32",
-                "reference": "3f53bddfe056424adb2dd5fa9a494745143c4b32",
+                "url": "https://api.github.com/repos/orchestral/html/zipball/1e408eda4c96b42372910c0815734e3d5f168b57",
+                "reference": "1e408eda4c96b42372910c0815734e3d5f168b57",
                 "shasum": ""
             },
             "require": {
@@ -1040,8 +1055,12 @@
             },
             "require-dev": {
                 "illuminate/container": "4.1.*",
+                "illuminate/database": "4.1.*",
                 "illuminate/html": "4.1.*",
-                "mockery/mockery": "0.8.0"
+                "illuminate/routing": "4.1.*",
+                "illuminate/translation": "4.1.*",
+                "illuminate/view": "4.1.*",
+                "mockery/mockery": "0.8.*"
             },
             "suggest": {
                 "laravel/framework": "Allow using orchestra/html component outside of Orchestra Platform 2",
@@ -1050,7 +1069,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.1-dev"
+                    "dev-master": "2.2-dev"
                 }
             },
             "autoload": {
@@ -1070,26 +1089,26 @@
                 }
             ],
             "description": "Orchestra Platform 2 Html Component",
-            "homepage": "http://orchestraplatform.com/docs/2.0/components/html/",
+            "homepage": "http://orchestraplatform.com/docs/latest/components/html/",
             "keywords": [
                 "laravel",
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2013-10-21 03:44:33"
+            "time": "2013-12-27 16:22:11"
         },
         {
             "name": "orchestra/memory",
-            "version": "dev-master",
+            "version": "v2.1.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/memory.git",
-                "reference": "5af7a7d80d2f14868df2316dda851671d658883b"
+                "reference": "710e6ca710d3f916c5f4a24a29fd2fc486bf2859"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/memory/zipball/5af7a7d80d2f14868df2316dda851671d658883b",
-                "reference": "5af7a7d80d2f14868df2316dda851671d658883b",
+                "url": "https://api.github.com/repos/orchestral/memory/zipball/710e6ca710d3f916c5f4a24a29fd2fc486bf2859",
+                "reference": "710e6ca710d3f916c5f4a24a29fd2fc486bf2859",
                 "shasum": ""
             },
             "require": {
@@ -1097,8 +1116,9 @@
                 "php": ">=5.3.3"
             },
             "require-dev": {
+                "illuminate/container": "4.1.*",
                 "illuminate/support": "4.1.*",
-                "mockery/mockery": "0.8.0"
+                "mockery/mockery": "0.8.*"
             },
             "suggest": {
                 "laravel/framework": "Allow using orchestra/memory component outside of Orchestra Platform 2",
@@ -1107,7 +1127,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.1-dev"
+                    "dev-master": "2.2-dev"
                 }
             },
             "autoload": {
@@ -1127,41 +1147,42 @@
                 }
             ],
             "description": "Orchestra Platform 2 Memory Component",
-            "homepage": "http://orchestraplatform.com/docs/2.0/components/memory/",
+            "homepage": "http://orchestraplatform.com/docs/latest/components/memory/",
             "keywords": [
                 "laravel",
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2013-10-21 01:35:33"
+            "time": "2014-01-19 01:09:41"
         },
         {
             "name": "orchestra/model",
-            "version": "dev-master",
+            "version": "v2.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/model.git",
-                "reference": "4ac00fa7271aba023fd15578295cf5917ad7a155"
+                "reference": "266d0c2771dfae3bf4d855bc47f7514a92ac3be1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/model/zipball/4ac00fa7271aba023fd15578295cf5917ad7a155",
-                "reference": "4ac00fa7271aba023fd15578295cf5917ad7a155",
+                "url": "https://api.github.com/repos/orchestral/model/zipball/266d0c2771dfae3bf4d855bc47f7514a92ac3be1",
+                "reference": "266d0c2771dfae3bf4d855bc47f7514a92ac3be1",
                 "shasum": ""
             },
             "require": {
+                "orchestra/notifier": "2.1.*",
                 "orchestra/support": "2.1.*",
                 "php": ">=5.3.3"
             },
             "require-dev": {
                 "illuminate/auth": "4.1.*",
                 "illuminate/database": "4.1.*",
-                "mockery/mockery": "0.8.0"
+                "mockery/mockery": "0.8.*"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.1-dev"
+                    "dev-master": "2.2-dev"
                 }
             },
             "autoload": {
@@ -1181,27 +1202,138 @@
                 }
             ],
             "description": "Orchestra Platform 2 Model Component",
-            "homepage": "http://orchestraplatform.com/docs/2.0/",
+            "homepage": "http://orchestraplatform.com/docs/latest/components/model",
             "keywords": [
                 "laravel",
                 "model",
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2013-10-21 03:27:24"
+            "time": "2014-01-12 02:13:28"
         },
         {
-            "name": "orchestra/resources",
-            "version": "dev-master",
+            "name": "orchestra/notifier",
+            "version": "v2.1.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/orchestral/resources.git",
-                "reference": "dd297a586ea29d3ac7d1d9a5dad94e312a1c586c"
+                "url": "https://github.com/orchestral/notifier.git",
+                "reference": "71c117c145a7d160dc35ab4c57052d0720843b59"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/resources/zipball/dd297a586ea29d3ac7d1d9a5dad94e312a1c586c",
-                "reference": "dd297a586ea29d3ac7d1d9a5dad94e312a1c586c",
+                "url": "https://api.github.com/repos/orchestral/notifier/zipball/71c117c145a7d160dc35ab4c57052d0720843b59",
+                "reference": "71c117c145a7d160dc35ab4c57052d0720843b59",
+                "shasum": ""
+            },
+            "require": {
+                "orchestra/memory": "2.1.*",
+                "php": ">=5.3.3"
+            },
+            "require-dev": {
+                "illuminate/auth": "4.1.*",
+                "illuminate/mail": "4.1.*",
+                "illuminate/queue": "4.1.*",
+                "illuminate/support": "4.1.*",
+                "jeremeamia/superclosure": "1.0.*",
+                "mockery/mockery": "0.8.*"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.2-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Orchestra\\Notifier": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mior Muhammad Zaki",
+                    "email": "crynobone@gmail.com",
+                    "homepage": "https://github.com/crynobone"
+                }
+            ],
+            "description": "Orchestra Platform 2 User Notification Component",
+            "keywords": [
+                "laravel",
+                "orchestra-platform",
+                "orchestral"
+            ],
+            "time": "2014-01-19 01:02:29"
+        },
+        {
+            "name": "orchestra/optimize",
+            "version": "v2.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/orchestral/optimize.git",
+                "reference": "11921a41182b53a6c5849707fccaf106761e5bbe"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/orchestral/optimize/zipball/11921a41182b53a6c5849707fccaf106761e5bbe",
+                "reference": "11921a41182b53a6c5849707fccaf106761e5bbe",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "require-dev": {
+                "illuminate/config": "4.1.*",
+                "illuminate/console": "4.1.*",
+                "illuminate/container": "4.1.*",
+                "illuminate/events": "4.1.*",
+                "illuminate/filesystem": "4.1.*",
+                "illuminate/support": "4.1.*",
+                "mockery/mockery": "0.8.*"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.2-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Orchestra\\Optimize": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mior Muhammad Zaki",
+                    "email": "crynobone@gmail.com",
+                    "homepage": "https://github.com/crynobone"
+                }
+            ],
+            "description": "Orchestra Platform 2 Optimize Component",
+            "keywords": [
+                "orchestra-platform",
+                "orchestral"
+            ],
+            "time": "2014-01-11 01:10:58"
+        },
+        {
+            "name": "orchestra/resources",
+            "version": "v2.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/orchestral/resources.git",
+                "reference": "689428b9ddbc713d3688ea9a6c15c997bd102329"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/orchestral/resources/zipball/689428b9ddbc713d3688ea9a6c15c997bd102329",
+                "reference": "689428b9ddbc713d3688ea9a6c15c997bd102329",
                 "shasum": ""
             },
             "require": {
@@ -1212,7 +1344,7 @@
                 "illuminate/events": "4.1.*",
                 "illuminate/http": "4.1.*",
                 "illuminate/routing": "4.1.*",
-                "mockery/mockery": "0.8.0"
+                "mockery/mockery": "0.8.*"
             },
             "suggest": {
                 "laravel/framework": "Allow using orchestra/resources component outside of Orchestra Platform 2",
@@ -1221,7 +1353,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.1-dev"
+                    "dev-master": "2.2-dev"
                 }
             },
             "autoload": {
@@ -1241,26 +1373,26 @@
                 }
             ],
             "description": "Orchestra Platform 2 Resources Component",
-            "homepage": "http://orchestraplatform.com/docs/2.0/components/resources/",
+            "homepage": "http://orchestraplatform.com/docs/latest/components/resources/",
             "keywords": [
                 "laravel",
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2013-10-21 03:49:47"
+            "time": "2014-01-24 10:11:32"
         },
         {
             "name": "orchestra/story",
-            "version": "dev-master",
+            "version": "v2.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/story.git",
-                "reference": "01ac2a7ecb740c9c24f74f41358df48d404c0b23"
+                "reference": "a2fcaacd8954405178602f036815373988e385d5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/story/zipball/01ac2a7ecb740c9c24f74f41358df48d404c0b23",
-                "reference": "01ac2a7ecb740c9c24f74f41358df48d404c0b23",
+                "url": "https://api.github.com/repos/orchestral/story/zipball/a2fcaacd8954405178602f036815373988e385d5",
+                "reference": "a2fcaacd8954405178602f036815373988e385d5",
                 "shasum": ""
             },
             "require": {
@@ -1268,15 +1400,15 @@
                 "php": ">=5.3.3"
             },
             "require-dev": {
-                "mockery/mockery": "0.8.0",
+                "mockery/mockery": "0.8.*",
                 "orchestra/foundation": "2.1.*",
                 "orchestra/testbench": "2.1.*",
-                "packagist/yuicompressor-bin": "dev-master"
+                "packagist/yuicompressor-bin": "2.4.8"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.1-dev"
+                    "dev-master": "2.2-dev"
                 }
             },
             "autoload": {
@@ -1305,28 +1437,31 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2013-10-20 12:01:46"
+            "time": "2014-01-14 07:49:00"
         },
         {
             "name": "orchestra/support",
-            "version": "dev-master",
+            "version": "v2.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/support.git",
-                "reference": "0e03a22668889acd0acff5adb5c0dbd437f25b4e"
+                "reference": "b385c6dc43f672aec7b48a4a1e55e1cbe015d985"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/support/zipball/0e03a22668889acd0acff5adb5c0dbd437f25b4e",
-                "reference": "0e03a22668889acd0acff5adb5c0dbd437f25b4e",
+                "url": "https://api.github.com/repos/orchestral/support/zipball/b385c6dc43f672aec7b48a4a1e55e1cbe015d985",
+                "reference": "b385c6dc43f672aec7b48a4a1e55e1cbe015d985",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.3"
             },
             "require-dev": {
+                "illuminate/events": "4.1.*",
+                "illuminate/session": "4.1.*",
                 "illuminate/support": "4.1.*",
-                "mockery/mockery": "0.8.0",
+                "illuminate/validation": "4.1.*",
+                "mockery/mockery": "0.8.*",
                 "patchwork/utf8": "1.1.*"
             },
             "suggest": {
@@ -1336,7 +1471,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.1-dev"
+                    "dev-master": "2.2-dev"
                 }
             },
             "autoload": {
@@ -1356,26 +1491,26 @@
                 }
             ],
             "description": "Orchestra Platform 2 Support Component",
-            "homepage": "http://orchestraplatform.com/docs/2.0/components/support/",
+            "homepage": "http://orchestraplatform.com/docs/latest/components/support/",
             "keywords": [
                 "laravel",
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2013-10-26 07:16:53"
+            "time": "2014-01-07 16:04:43"
         },
         {
             "name": "orchestra/translation",
-            "version": "dev-master",
+            "version": "v2.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/translation.git",
-                "reference": "aa54877c5d6a7a3e779ee6b6ec0ffd3f0d0ad663"
+                "reference": "d76ee5f4e332d04248364e9cc03a00c60c236c33"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/translation/zipball/aa54877c5d6a7a3e779ee6b6ec0ffd3f0d0ad663",
-                "reference": "aa54877c5d6a7a3e779ee6b6ec0ffd3f0d0ad663",
+                "url": "https://api.github.com/repos/orchestral/translation/zipball/d76ee5f4e332d04248364e9cc03a00c60c236c33",
+                "reference": "d76ee5f4e332d04248364e9cc03a00c60c236c33",
                 "shasum": ""
             },
             "require": {
@@ -1383,7 +1518,7 @@
             },
             "require-dev": {
                 "illuminate/translation": "4.1.*",
-                "mockery/mockery": "0.8.0"
+                "mockery/mockery": "0.8.*"
             },
             "suggest": {
                 "laravel/framework": "Allow using orchestra/translation as added feature to illuminate/translation"
@@ -1411,27 +1546,27 @@
                 }
             ],
             "description": "Orchestra Platform 2 Translation Component",
-            "homepage": "http://orchestraplatform.com/docs/2.0/components/translation/",
+            "homepage": "http://orchestraplatform.com/docs/latest/components/translation/",
             "keywords": [
                 "laravel",
                 "orchestra-platform",
                 "orchestral",
                 "translation"
             ],
-            "time": "2013-10-21 02:04:39"
+            "time": "2013-12-12 15:14:23"
         },
         {
             "name": "orchestra/view",
-            "version": "dev-master",
+            "version": "v2.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/view.git",
-                "reference": "40acd1861f7ff6e3e8355d51937d3197c7807bb2"
+                "reference": "d7042e676e01f6410edf061b4ab5f6b9a3a78257"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/view/zipball/40acd1861f7ff6e3e8355d51937d3197c7807bb2",
-                "reference": "40acd1861f7ff6e3e8355d51937d3197c7807bb2",
+                "url": "https://api.github.com/repos/orchestral/view/zipball/d7042e676e01f6410edf061b4ab5f6b9a3a78257",
+                "reference": "d7042e676e01f6410edf061b4ab5f6b9a3a78257",
                 "shasum": ""
             },
             "require": {
@@ -1441,7 +1576,7 @@
             "require-dev": {
                 "illuminate/container": "4.1.*",
                 "illuminate/view": "4.1.*",
-                "mockery/mockery": "0.8.0"
+                "mockery/mockery": "0.8.*"
             },
             "suggest": {
                 "laravel/framework": "Allow using orchestra/view component outside of Orchestra Platform 2",
@@ -1450,7 +1585,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.1-dev"
+                    "dev-master": "2.2-dev"
                 }
             },
             "autoload": {
@@ -1470,26 +1605,26 @@
                 }
             ],
             "description": "Orchestra Platform 2 View Component",
-            "homepage": "http://orchestraplatform.com/docs/2.0/components/view/",
+            "homepage": "http://orchestraplatform.com/docs/latest/components/view/",
             "keywords": [
                 "laravel",
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2013-10-21 02:51:44"
+            "time": "2014-01-10 07:01:06"
         },
         {
             "name": "orchestra/widget",
-            "version": "dev-master",
+            "version": "v2.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/widget.git",
-                "reference": "9b3cedb075c214347d441c4e7ed84cdd49bde7db"
+                "reference": "4a967c7c90cb397a5d582eb8ef602295f0aa6ed0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/widget/zipball/9b3cedb075c214347d441c4e7ed84cdd49bde7db",
-                "reference": "9b3cedb075c214347d441c4e7ed84cdd49bde7db",
+                "url": "https://api.github.com/repos/orchestral/widget/zipball/4a967c7c90cb397a5d582eb8ef602295f0aa6ed0",
+                "reference": "4a967c7c90cb397a5d582eb8ef602295f0aa6ed0",
                 "shasum": ""
             },
             "require": {
@@ -1499,7 +1634,7 @@
             "require-dev": {
                 "illuminate/container": "4.1.*",
                 "illuminate/support": "4.1.*",
-                "mockery/mockery": "0.8.0"
+                "mockery/mockery": "0.8.*"
             },
             "suggest": {
                 "laravel/framework": "Allow using orchestra/widget component outside of Orchestra Platform 2",
@@ -1508,7 +1643,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.1-dev"
+                    "dev-master": "2.2-dev"
                 }
             },
             "autoload": {
@@ -1528,36 +1663,36 @@
                 }
             ],
             "description": "Orchestra Platform 2 Widget Component",
-            "homepage": "http://orchestraplatform.com/docs/2.0/components/widget/",
+            "homepage": "http://orchestraplatform.com/docs/latest/components/widget/",
             "keywords": [
                 "laravel",
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2013-10-21 02:38:28"
+            "time": "2014-01-14 07:27:46"
         },
         {
             "name": "patchwork/utf8",
-            "version": "v1.1.13",
+            "version": "v1.1.17",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nicolas-grekas/Patchwork-UTF8.git",
-                "reference": "92376c92e7edc281a2ca4e3384f3da9237415db6"
+                "reference": "1396fedf134f71d479236fce0833dc4c88079391"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nicolas-grekas/Patchwork-UTF8/zipball/92376c92e7edc281a2ca4e3384f3da9237415db6",
-                "reference": "92376c92e7edc281a2ca4e3384f3da9237415db6",
+                "url": "https://api.github.com/repos/nicolas-grekas/Patchwork-UTF8/zipball/1396fedf134f71d479236fce0833dc4c88079391",
+                "reference": "1396fedf134f71d479236fce0833dc4c88079391",
                 "shasum": ""
             },
             "require": {
-                "lib-pcre": "*",
+                "lib-pcre": ">=7.9",
                 "php": ">=5.3.0"
             },
             "suggest": {
-                "ext-mbstring": "Use Mbstring for best performance",
-                "lib-iconv": "Use iconv for best performance",
-                "lib-icu": "Use Intl for best performance"
+                "ext-iconv": "Use iconv for best performance",
+                "ext-intl": "Use Intl for best performance",
+                "ext-mbstring": "Use Mbstring for best performance"
             },
             "type": "library",
             "autoload": {
@@ -1585,20 +1720,20 @@
                 "utf-8",
                 "utf8"
             ],
-            "time": "2013-10-12 09:48:20"
+            "time": "2014-01-02 10:19:36"
         },
         {
             "name": "phpseclib/phpseclib",
-            "version": "dev-master",
+            "version": "0.3.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpseclib/phpseclib.git",
-                "reference": "c6a52cb1b1793b5ce74a9c222ab53dd5bca75d1c"
+                "reference": "fe3765fe1773c9d62985d05d5b5da24c921c4bd0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpseclib/phpseclib/zipball/c6a52cb1b1793b5ce74a9c222ab53dd5bca75d1c",
-                "reference": "c6a52cb1b1793b5ce74a9c222ab53dd5bca75d1c",
+                "url": "https://api.github.com/repos/phpseclib/phpseclib/zipball/fe3765fe1773c9d62985d05d5b5da24c921c4bd0",
+                "reference": "fe3765fe1773c9d62985d05d5b5da24c921c4bd0",
                 "shasum": ""
             },
             "require": {
@@ -1637,7 +1772,7 @@
                 {
                     "name": "Jim Wigginton",
                     "email": "terrafrost@php.net",
-                    "role": "Developer"
+                    "role": "Lead Developer"
                 }
             ],
             "description": "PHP Secure Communications Library - Pure-PHP implementations of RSA, AES, SSH2, SFTP, X.509 etc.",
@@ -1659,20 +1794,20 @@
                 "x.509",
                 "x509"
             ],
-            "time": "2013-10-25 17:35:30"
+            "time": "2013-06-08 17:40:39"
         },
         {
             "name": "predis/predis",
-            "version": "0.8.x-dev",
+            "version": "v0.8.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nrk/predis.git",
-                "reference": "4824af15631f6a80a939cdc58104d03e0aadd17a"
+                "reference": "5f2eea628eb465d866ad2771927d83769c8f956c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nrk/predis/zipball/4824af15631f6a80a939cdc58104d03e0aadd17a",
-                "reference": "4824af15631f6a80a939cdc58104d03e0aadd17a",
+                "url": "https://api.github.com/repos/nrk/predis/zipball/5f2eea628eb465d866ad2771927d83769c8f956c",
+                "reference": "5f2eea628eb465d866ad2771927d83769c8f956c",
                 "shasum": ""
             },
             "require": {
@@ -1706,7 +1841,7 @@
                 "predis",
                 "redis"
             ],
-            "time": "2013-08-31 08:51:10"
+            "time": "2014-01-16 14:10:29"
         },
         {
             "name": "psr/log",
@@ -1748,7 +1883,7 @@
         },
         {
             "name": "react/event-loop",
-            "version": "dev-master",
+            "version": "v0.3.3",
             "target-dir": "React/EventLoop",
             "source": {
                 "type": "git",
@@ -1791,7 +1926,7 @@
         },
         {
             "name": "react/socket",
-            "version": "dev-master",
+            "version": "v0.3.2",
             "target-dir": "React/Socket",
             "source": {
                 "type": "git",
@@ -1833,7 +1968,7 @@
         },
         {
             "name": "react/stream",
-            "version": "dev-master",
+            "version": "v0.3.3",
             "target-dir": "React/Stream",
             "source": {
                 "type": "git",
@@ -1877,17 +2012,67 @@
             "time": "2013-07-09 00:44:12"
         },
         {
-            "name": "swiftmailer/swiftmailer",
-            "version": "v5.0.2",
+            "name": "stack/builder",
+            "version": "v1.0.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/swiftmailer/swiftmailer.git",
-                "reference": "f3917ecef35a4e4d98b303eb9fee463bc983f379"
+                "url": "https://github.com/stackphp/builder.git",
+                "reference": "49ab90450d7f959943f3659a4bcb5965530117c2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/swiftmailer/swiftmailer/zipball/f3917ecef35a4e4d98b303eb9fee463bc983f379",
-                "reference": "f3917ecef35a4e4d98b303eb9fee463bc983f379",
+                "url": "https://api.github.com/repos/stackphp/builder/zipball/49ab90450d7f959943f3659a4bcb5965530117c2",
+                "reference": "49ab90450d7f959943f3659a4bcb5965530117c2",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0",
+                "symfony/http-foundation": "~2.1",
+                "symfony/http-kernel": "~2.1"
+            },
+            "require-dev": {
+                "silex/silex": "~1.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Stack": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Igor Wiedler",
+                    "email": "igor@wiedler.ch",
+                    "homepage": "http://wiedler.ch/igor/"
+                }
+            ],
+            "description": "Builder for stack middlewares based on HttpKernelInterface.",
+            "keywords": [
+                "stack"
+            ],
+            "time": "2013-10-25 14:04:45"
+        },
+        {
+            "name": "swiftmailer/swiftmailer",
+            "version": "v5.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/swiftmailer/swiftmailer.git",
+                "reference": "32edc3b0de0fdc1b10f5c4912e8677b3f411a230"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/swiftmailer/swiftmailer/zipball/32edc3b0de0fdc1b10f5c4912e8677b3f411a230",
+                "reference": "32edc3b0de0fdc1b10f5c4912e8677b3f411a230",
                 "shasum": ""
             },
             "require": {
@@ -1923,21 +2108,21 @@
                 "mail",
                 "mailer"
             ],
-            "time": "2013-08-30 12:35:21"
+            "time": "2013-12-03 13:33:24"
         },
         {
             "name": "symfony/browser-kit",
-            "version": "dev-master",
+            "version": "v2.4.1",
             "target-dir": "Symfony/Component/BrowserKit",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/BrowserKit.git",
-                "reference": "fc5d0dd10afe707f08ac7b5b4ceecb8119c57498"
+                "reference": "0248b2dfc9cd6b259555d232eedfb1283eb496c3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/BrowserKit/zipball/fc5d0dd10afe707f08ac7b5b4ceecb8119c57498",
-                "reference": "fc5d0dd10afe707f08ac7b5b4ceecb8119c57498",
+                "url": "https://api.github.com/repos/symfony/BrowserKit/zipball/0248b2dfc9cd6b259555d232eedfb1283eb496c3",
+                "reference": "0248b2dfc9cd6b259555d232eedfb1283eb496c3",
                 "shasum": ""
             },
             "require": {
@@ -1978,21 +2163,21 @@
             ],
             "description": "Symfony BrowserKit Component",
             "homepage": "http://symfony.com",
-            "time": "2013-09-27 14:07:49"
+            "time": "2013-12-28 21:39:51"
         },
         {
             "name": "symfony/console",
-            "version": "dev-master",
+            "version": "v2.4.1",
             "target-dir": "Symfony/Component/Console",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Console.git",
-                "reference": "662a2922e0bcb3669e66ab36c20ce508c68b1d46"
+                "reference": "4c1ed2ff514bd85ee186eebb010ccbdeeab05af7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/Console/zipball/662a2922e0bcb3669e66ab36c20ce508c68b1d46",
-                "reference": "662a2922e0bcb3669e66ab36c20ce508c68b1d46",
+                "url": "https://api.github.com/repos/symfony/Console/zipball/4c1ed2ff514bd85ee186eebb010ccbdeeab05af7",
+                "reference": "4c1ed2ff514bd85ee186eebb010ccbdeeab05af7",
                 "shasum": ""
             },
             "require": {
@@ -2031,21 +2216,21 @@
             ],
             "description": "Symfony Console Component",
             "homepage": "http://symfony.com",
-            "time": "2013-10-23 08:18:42"
+            "time": "2014-01-01 08:14:50"
         },
         {
             "name": "symfony/css-selector",
-            "version": "dev-master",
+            "version": "v2.4.1",
             "target-dir": "Symfony/Component/CssSelector",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/CssSelector.git",
-                "reference": "13032e63b946d6e3f1ee0f60035298a175ae5088"
+                "reference": "352552da1f50a79f6a6fa427e4a85ee2ea1945f6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/CssSelector/zipball/13032e63b946d6e3f1ee0f60035298a175ae5088",
-                "reference": "13032e63b946d6e3f1ee0f60035298a175ae5088",
+                "url": "https://api.github.com/repos/symfony/CssSelector/zipball/352552da1f50a79f6a6fa427e4a85ee2ea1945f6",
+                "reference": "352552da1f50a79f6a6fa427e4a85ee2ea1945f6",
                 "shasum": ""
             },
             "require": {
@@ -2082,21 +2267,21 @@
             ],
             "description": "Symfony CssSelector Component",
             "homepage": "http://symfony.com",
-            "time": "2013-10-16 11:59:56"
+            "time": "2014-01-01 08:14:50"
         },
         {
             "name": "symfony/debug",
-            "version": "dev-master",
+            "version": "v2.4.1",
             "target-dir": "Symfony/Component/Debug",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Debug.git",
-                "reference": "10236d7c34e135a9e0879b62a443e3870ce639c6"
+                "reference": "74110be5ec681a83fc5bd66dd5fd29fe85fe9c1f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/Debug/zipball/10236d7c34e135a9e0879b62a443e3870ce639c6",
-                "reference": "10236d7c34e135a9e0879b62a443e3870ce639c6",
+                "url": "https://api.github.com/repos/symfony/Debug/zipball/74110be5ec681a83fc5bd66dd5fd29fe85fe9c1f",
+                "reference": "74110be5ec681a83fc5bd66dd5fd29fe85fe9c1f",
                 "shasum": ""
             },
             "require": {
@@ -2137,21 +2322,21 @@
             ],
             "description": "Symfony Debug Component",
             "homepage": "http://symfony.com",
-            "time": "2013-10-16 11:59:56"
+            "time": "2014-01-01 09:02:49"
         },
         {
             "name": "symfony/dom-crawler",
-            "version": "dev-master",
+            "version": "v2.4.1",
             "target-dir": "Symfony/Component/DomCrawler",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/DomCrawler.git",
-                "reference": "c932bcb795eeb34e981fef9ce7c4ee76e43a97b7"
+                "reference": "58e85928ad277c67102a41a046160de86df44d55"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/DomCrawler/zipball/c932bcb795eeb34e981fef9ce7c4ee76e43a97b7",
-                "reference": "c932bcb795eeb34e981fef9ce7c4ee76e43a97b7",
+                "url": "https://api.github.com/repos/symfony/DomCrawler/zipball/58e85928ad277c67102a41a046160de86df44d55",
+                "reference": "58e85928ad277c67102a41a046160de86df44d55",
                 "shasum": ""
             },
             "require": {
@@ -2190,21 +2375,21 @@
             ],
             "description": "Symfony DomCrawler Component",
             "homepage": "http://symfony.com",
-            "time": "2013-10-01 08:36:55"
+            "time": "2013-12-29 20:33:52"
         },
         {
             "name": "symfony/event-dispatcher",
-            "version": "dev-master",
+            "version": "v2.4.1",
             "target-dir": "Symfony/Component/EventDispatcher",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/EventDispatcher.git",
-                "reference": "d51d78b34c1d9dcc384ba48155105fe99284dd67"
+                "reference": "e3ba42f6a70554ed05749e61b829550f6ac33601"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/EventDispatcher/zipball/d51d78b34c1d9dcc384ba48155105fe99284dd67",
-                "reference": "d51d78b34c1d9dcc384ba48155105fe99284dd67",
+                "url": "https://api.github.com/repos/symfony/EventDispatcher/zipball/e3ba42f6a70554ed05749e61b829550f6ac33601",
+                "reference": "e3ba42f6a70554ed05749e61b829550f6ac33601",
                 "shasum": ""
             },
             "require": {
@@ -2244,21 +2429,21 @@
             ],
             "description": "Symfony EventDispatcher Component",
             "homepage": "http://symfony.com",
-            "time": "2013-10-17 11:48:11"
+            "time": "2013-12-28 08:12:03"
         },
         {
             "name": "symfony/filesystem",
-            "version": "dev-master",
+            "version": "v2.4.1",
             "target-dir": "Symfony/Component/Filesystem",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Filesystem.git",
-                "reference": "e558fd5d593ebe083dca199f52aed5374ab7b57a"
+                "reference": "b3c3b5a8108b3e5d604dc23241b4ea84a067fc78"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/Filesystem/zipball/e558fd5d593ebe083dca199f52aed5374ab7b57a",
-                "reference": "e558fd5d593ebe083dca199f52aed5374ab7b57a",
+                "url": "https://api.github.com/repos/symfony/Filesystem/zipball/b3c3b5a8108b3e5d604dc23241b4ea84a067fc78",
+                "reference": "b3c3b5a8108b3e5d604dc23241b4ea84a067fc78",
                 "shasum": ""
             },
             "require": {
@@ -2291,21 +2476,21 @@
             ],
             "description": "Symfony Filesystem Component",
             "homepage": "http://symfony.com",
-            "time": "2013-09-27 14:57:51"
+            "time": "2013-12-31 13:43:26"
         },
         {
             "name": "symfony/finder",
-            "version": "dev-master",
+            "version": "v2.4.1",
             "target-dir": "Symfony/Component/Finder",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Finder.git",
-                "reference": "e2ce3164ab58b4d54612e630571f158035ee8603"
+                "reference": "6904345cf2b3bbab1f6d6e4ce1724cb99df9f00a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/Finder/zipball/e2ce3164ab58b4d54612e630571f158035ee8603",
-                "reference": "e2ce3164ab58b4d54612e630571f158035ee8603",
+                "url": "https://api.github.com/repos/symfony/Finder/zipball/6904345cf2b3bbab1f6d6e4ce1724cb99df9f00a",
+                "reference": "6904345cf2b3bbab1f6d6e4ce1724cb99df9f00a",
                 "shasum": ""
             },
             "require": {
@@ -2338,21 +2523,21 @@
             ],
             "description": "Symfony Finder Component",
             "homepage": "http://symfony.com",
-            "time": "2013-09-19 09:47:34"
+            "time": "2014-01-01 08:14:50"
         },
         {
             "name": "symfony/http-foundation",
-            "version": "dev-master",
+            "version": "v2.4.1",
             "target-dir": "Symfony/Component/HttpFoundation",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/HttpFoundation.git",
-                "reference": "a7af7a60fa83695c85c62a1253b15e7e67993274"
+                "reference": "6c6b8a7bcd7e2cc920cd6acace563fdbf121d844"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/HttpFoundation/zipball/a7af7a60fa83695c85c62a1253b15e7e67993274",
-                "reference": "a7af7a60fa83695c85c62a1253b15e7e67993274",
+                "url": "https://api.github.com/repos/symfony/HttpFoundation/zipball/6c6b8a7bcd7e2cc920cd6acace563fdbf121d844",
+                "reference": "6c6b8a7bcd7e2cc920cd6acace563fdbf121d844",
                 "shasum": ""
             },
             "require": {
@@ -2388,21 +2573,21 @@
             ],
             "description": "Symfony HttpFoundation Component",
             "homepage": "http://symfony.com",
-            "time": "2013-10-17 21:29:17"
+            "time": "2014-01-05 02:10:50"
         },
         {
             "name": "symfony/http-kernel",
-            "version": "dev-master",
+            "version": "v2.4.1",
             "target-dir": "Symfony/Component/HttpKernel",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/HttpKernel.git",
-                "reference": "445a47de0b50acfdf3e1a30bf3a6153733d84c46"
+                "reference": "0605eedeb52c4d3a3144128d8336395a57be60d4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/HttpKernel/zipball/445a47de0b50acfdf3e1a30bf3a6153733d84c46",
-                "reference": "445a47de0b50acfdf3e1a30bf3a6153733d84c46",
+                "url": "https://api.github.com/repos/symfony/HttpKernel/zipball/0605eedeb52c4d3a3144128d8336395a57be60d4",
+                "reference": "0605eedeb52c4d3a3144128d8336395a57be60d4",
                 "shasum": ""
             },
             "require": {
@@ -2459,21 +2644,21 @@
             ],
             "description": "Symfony HttpKernel Component",
             "homepage": "http://symfony.com",
-            "time": "2013-10-16 11:59:56"
+            "time": "2014-01-05 02:12:11"
         },
         {
             "name": "symfony/process",
-            "version": "dev-master",
+            "version": "v2.4.1",
             "target-dir": "Symfony/Component/Process",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Process.git",
-                "reference": "27b0fc645a557b2fc7bc7735cfb05505de9351be"
+                "reference": "58fdccb311e44f28866f976c2d7b3227e9f713db"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/Process/zipball/27b0fc645a557b2fc7bc7735cfb05505de9351be",
-                "reference": "27b0fc645a557b2fc7bc7735cfb05505de9351be",
+                "url": "https://api.github.com/repos/symfony/Process/zipball/58fdccb311e44f28866f976c2d7b3227e9f713db",
+                "reference": "58fdccb311e44f28866f976c2d7b3227e9f713db",
                 "shasum": ""
             },
             "require": {
@@ -2506,21 +2691,87 @@
             ],
             "description": "Symfony Process Component",
             "homepage": "http://symfony.com",
-            "time": "2013-10-10 05:53:18"
+            "time": "2014-01-05 02:10:50"
+        },
+        {
+            "name": "symfony/routing",
+            "version": "v2.4.1",
+            "target-dir": "Symfony/Component/Routing",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/Routing.git",
+                "reference": "4abfb500aab8be458c9e3a227ea56b190584f78a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/Routing/zipball/4abfb500aab8be458c9e3a227ea56b190584f78a",
+                "reference": "4abfb500aab8be458c9e3a227ea56b190584f78a",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "require-dev": {
+                "doctrine/annotations": "~1.0",
+                "psr/log": "~1.0",
+                "symfony/config": "~2.2",
+                "symfony/expression-language": "~2.4",
+                "symfony/yaml": "~2.0"
+            },
+            "suggest": {
+                "doctrine/annotations": "For using the annotation loader",
+                "symfony/config": "For using the all-in-one router or any loader",
+                "symfony/expression-language": "For using expression matching",
+                "symfony/yaml": "For using the YAML loader"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.4-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Symfony\\Component\\Routing\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "http://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony Routing Component",
+            "homepage": "http://symfony.com",
+            "keywords": [
+                "router",
+                "routing",
+                "uri",
+                "url"
+            ],
+            "time": "2014-01-05 02:10:50"
         },
         {
             "name": "symfony/translation",
-            "version": "dev-master",
+            "version": "v2.4.1",
             "target-dir": "Symfony/Component/Translation",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Translation.git",
-                "reference": "8addaff4947de4a9342318de62a078d74b1bd603"
+                "reference": "7f76dffd7eaf2c9a3a8f47649404c71440d18c8b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/Translation/zipball/8addaff4947de4a9342318de62a078d74b1bd603",
-                "reference": "8addaff4947de4a9342318de62a078d74b1bd603",
+                "url": "https://api.github.com/repos/symfony/Translation/zipball/7f76dffd7eaf2c9a3a8f47649404c71440d18c8b",
+                "reference": "7f76dffd7eaf2c9a3a8f47649404c71440d18c8b",
                 "shasum": ""
             },
             "require": {
@@ -2561,7 +2812,7 @@
             ],
             "description": "Symfony Translation Component",
             "homepage": "http://symfony.com",
-            "time": "2013-10-10 14:19:44"
+            "time": "2013-12-31 13:43:26"
         }
     ],
     "packages-dev": [
@@ -2570,7 +2821,7 @@
     "aliases": [
 
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "stability-flags": [
 
     ],
