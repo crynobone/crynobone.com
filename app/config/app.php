@@ -79,9 +79,10 @@ return array(
     */
 
     'providers' => array(
-
         'Illuminate\Foundation\Providers\ArtisanServiceProvider',
         'Illuminate\Cache\CacheServiceProvider',
+        'Illuminate\Session\CommandsServiceProvider',
+        'Illuminate\Foundation\Providers\ConsoleSupportServiceProvider',
         'Illuminate\Routing\ControllerServiceProvider',
         'Illuminate\Cookie\CookieServiceProvider',
         'Illuminate\Database\DatabaseServiceProvider',
@@ -103,12 +104,15 @@ return array(
 
         'Orchestra\Asset\AssetServiceProvider',
         'Orchestra\Auth\AuthServiceProvider',
+        'Orchestra\Debug\DebugServiceProvider',
         'Orchestra\View\DecoratorServiceProvider',
         'Orchestra\Extension\ExtensionServiceProvider',
         'Orchestra\Facile\FacileServiceProvider',
         'Orchestra\Html\HtmlServiceProvider',
         'Orchestra\Memory\MemoryServiceProvider',
         'Orchestra\Support\MessagesServiceProvider',
+        'Orchestra\Notifier\NotifierServiceProvider',
+        'Orchestra\Optimize\OptimizeServiceProvider',
         'Orchestra\Extension\PublisherServiceProvider',
         'Orchestra\Foundation\Reminders\ReminderServiceProvider',
         'Orchestra\Resources\ResourcesServiceProvider',
@@ -117,6 +121,7 @@ return array(
         'Orchestra\View\ViewServiceProvider',
         'Orchestra\Widget\WidgetServiceProvider',
 
+        'Orchestra\Foundation\ConsoleSupportServiceProvider',
         'Orchestra\Foundation\FoundationServiceProvider',
     ),
 
@@ -154,7 +159,7 @@ return array(
         'Cache'           => 'Illuminate\Support\Facades\Cache',
         'ClassLoader'     => 'Illuminate\Support\ClassLoader',
         'Config'          => 'Illuminate\Support\Facades\Config',
-        'Controller'      => 'Illuminate\Routing\Controllers\Controller',
+        'Controller'      => 'Illuminate\Routing\Controller',
         'Cookie'          => 'Illuminate\Support\Facades\Cookie',
         'Crypt'           => 'Illuminate\Support\Facades\Crypt',
         'DB'              => 'Illuminate\Support\Facades\DB',
@@ -182,6 +187,7 @@ return array(
         'Session'         => 'Illuminate\Support\Facades\Session',
         'Str'             => 'Orchestra\Support\Str',
         'Theme'           => 'Orchestra\Support\Facades\Theme',
+        'SSH'             => 'Illuminate\Support\Facades\SSH',
         'SSH'             => 'Illuminate\Support\Facades\SSH',
         'URL'             => 'Illuminate\Support\Facades\URL',
         'Validator'       => 'Illuminate\Support\Facades\Validator',
