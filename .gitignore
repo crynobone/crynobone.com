@@ -1,6 +1,6 @@
-# Laravel 
+# Laravel
 /bootstrap/compiled.php
-/public_html/packages/*
+/public/packages/*
 
 # Composer
 vendor/*
