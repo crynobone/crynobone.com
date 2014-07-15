@@ -3,46 +3,11 @@
 /public/packages/*
 
 # Composer
-vendor/*
-composer.phar
+/vendor/*
+/composer.phar
 
 # Code Coverage
-build/coverage/*
+/build/coverage/*
 
-# always-ignore extensionsalways-ignore extensions
-*.diff
-*.err
-*.orig
-*.log
-*.rej
-*.swo
-*.swp
-*.vi
-*~
-*.sass-cache
-
-# OS or Editor folders
-.DS_Store
-Thumbs.db
-.cache
-.project
-.settings
-.tmproj
-*.esproj
-nbproject
-
-# Dreamweaver added files
-_notes
-dwsync.xml
-
-# Komodo
-*.komodoproject
-.komodotools
-
-# Folders to ignore
-.hg
-.svn
-.CVS
-intermediate
-publish
-.idea
+# Vagrant
+/.vagrant/*
