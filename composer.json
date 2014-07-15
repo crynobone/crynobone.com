@@ -1,8 +1,8 @@
 {
 	"require": {
-		"orchestra/foundation": "2.1.*",
-		"orchestra/control": "2.1.*",
-		"orchestra/story": "2.1.*"
+		"orchestra/foundation": "2.2.*",
+		"orchestra/control": "2.2.*",
+		"orchestra/story": "2.2.*"
 	},
 	"autoload": {
 		"classmap": [

@@ -13,7 +13,7 @@ return array(
     |
     */
 
-    'debug' => true,
+    'debug' => false,
 
     /*
     |--------------------------------------------------------------------------
@@ -26,7 +26,7 @@ return array(
     |
     */
 
-    'url' => 'http://localhost',
+    'url' => 'http://crynobone.com',
 
     /*
     |--------------------------------------------------------------------------
@@ -56,6 +56,19 @@ return array(
 
     /*
     |--------------------------------------------------------------------------
+    | Application Fallback Locale
+    |--------------------------------------------------------------------------
+    |
+    | The fallback locale determines the locale to use when the current one
+    | is not available. You may change the value to correspond to any of
+    | the language folders that are provided through your application.
+    |
+    */
+
+    'fallback_locale' => 'en',
+
+    /*
+    |--------------------------------------------------------------------------
     | Encryption Key
     |--------------------------------------------------------------------------
     |
@@ -65,7 +78,9 @@ return array(
     |
     */
 
-    'key' => 'Maw4i0znI4u7o7oCAZ8oaJmI6qFFgw82',
+    'key' => getenv('APP.KEY') ?: 'Maw4i0znI4u7o7oCAZ8oaJmI6qFFgw82',
+
+    'cipher' => MCRYPT_RIJNDAEL_128,
 
     /*
     |--------------------------------------------------------------------------
@@ -79,6 +94,7 @@ return array(
     */
 
     'providers' => array(
+
         'Illuminate\Foundation\Providers\ArtisanServiceProvider',
         'Illuminate\Cache\CacheServiceProvider',
         'Illuminate\Session\CommandsServiceProvider',
@@ -113,7 +129,7 @@ return array(
         'Orchestra\Support\MessagesServiceProvider',
         'Orchestra\Notifier\NotifierServiceProvider',
         'Orchestra\Optimize\OptimizeServiceProvider',
-        'Orchestra\Extension\PublisherServiceProvider',
+        'Orchestra\Publisher\PublisherServiceProvider',
         'Orchestra\Foundation\Reminders\ReminderServiceProvider',
         'Orchestra\Resources\ResourcesServiceProvider',
         'Orchestra\Foundation\SiteServiceProvider',
@@ -186,12 +202,13 @@ return array(
         'Seeder'          => 'Illuminate\Database\Seeder',
         'Session'         => 'Illuminate\Support\Facades\Session',
         'Str'             => 'Orchestra\Support\Str',
+        'SoftDeletingTrait' => 'Illuminate\Database\Eloquent\SoftDeletingTrait',
+        'SSH'             => 'Illuminate\Support\Facades\SSH',
         'Theme'           => 'Orchestra\Support\Facades\Theme',
-        'SSH'             => 'Illuminate\Support\Facades\SSH',
-        'SSH'             => 'Illuminate\Support\Facades\SSH',
         'URL'             => 'Illuminate\Support\Facades\URL',
         'Validator'       => 'Illuminate\Support\Facades\Validator',
         'View'            => 'Illuminate\Support\Facades\View',
+
     ),
 
 );
