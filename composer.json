@@ -2,7 +2,7 @@
 	"require": {
 		"orchestra/foundation": "2.2.*",
 		"orchestra/control": "2.2.*",
-		"orchestra/story": "2.2.*"
+		"orchestra/story": "2.2.*@dev"
 	},
 	"autoload": {
 		"classmap": [
