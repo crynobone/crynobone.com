@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "5b210b7e679110269ba583f8e621d9fb",
+    "hash": "34c100543eb52c2542784a5e60841517",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -277,7 +277,7 @@
             "authors": [
                 {
                     "name": "Anthony Ferrara",
-                    "email": "ircmaxell@php.net",
+                    "email": "ircmaxell@ircmaxell.com",
                     "homepage": "http://blog.ircmaxell.com"
                 }
             ],
@@ -524,23 +524,23 @@
         },
         {
             "name": "nesbot/carbon",
-            "version": "1.9.0",
+            "version": "1.10.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/briannesbitt/Carbon.git",
-                "reference": "b94de7192b01d0e80794eae984dcc773220ab0dc"
+                "reference": "9b42a1aec56011c2ac4d75c0ddad0794762344fc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/b94de7192b01d0e80794eae984dcc773220ab0dc",
-                "reference": "b94de7192b01d0e80794eae984dcc773220ab0dc",
+                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/9b42a1aec56011c2ac4d75c0ddad0794762344fc",
+                "reference": "9b42a1aec56011c2ac4d75c0ddad0794762344fc",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.0"
             },
             "require-dev": {
-                "phpunit/phpunit": "3.7.*"
+                "phpunit/phpunit": "~4.0"
             },
             "type": "library",
             "autoload": {
@@ -566,7 +566,7 @@
                 "datetime",
                 "time"
             ],
-            "time": "2014-05-13 02:29:30"
+            "time": "2014-07-18 03:44:47"
         },
         {
             "name": "nikic/php-parser",
@@ -1462,7 +1462,7 @@
         },
         {
             "name": "orchestra/story",
-            "version": "2.2.x-dev",
+            "version": "v2.2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/story.git",
@@ -1519,16 +1519,16 @@
         },
         {
             "name": "orchestra/support",
-            "version": "v2.2.0",
+            "version": "v2.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/support.git",
-                "reference": "e4ff5463f9031d901040318ba8e9ea70263f0818"
+                "reference": "2a81b14fe4da019421dd2db77e18b829e2c58b19"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/support/zipball/e4ff5463f9031d901040318ba8e9ea70263f0818",
-                "reference": "e4ff5463f9031d901040318ba8e9ea70263f0818",
+                "url": "https://api.github.com/repos/orchestral/support/zipball/2a81b14fe4da019421dd2db77e18b829e2c58b19",
+                "reference": "2a81b14fe4da019421dd2db77e18b829e2c58b19",
                 "shasum": ""
             },
             "require": {
@@ -1573,10 +1573,14 @@
             "homepage": "http://orchestraplatform.com/docs/latest/components/support/",
             "keywords": [
                 "laravel",
+                "messages",
+                "notification",
                 "orchestra-platform",
-                "orchestral"
+                "orchestral",
+                "utilities",
+                "validator"
             ],
-            "time": "2014-05-26 08:46:29"
+            "time": "2014-07-18 01:20:34"
         },
         {
             "name": "orchestra/translation",
@@ -3025,9 +3029,8 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "orchestra/story": 20
-    },
+    "stability-flags": [],
+    "prefer-stable": false,
     "platform": [],
     "platform-dev": []
 }
