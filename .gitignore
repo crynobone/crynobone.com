@@ -1,15 +1,9 @@
 # Laravel
-/bootstrap/compiled.php
 /public/packages/*
-.env.*.php
-.env.php
+.env
 
 # Composer
 /vendor/*
-/composer.phar
-
-# Code Coverage
-/build/coverage/*
 
 # Vagrant
 /.vagrant/*
