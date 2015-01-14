@@ -1,17 +1,20 @@
 <?php namespace App\Providers;
 
+use App\Http\Handlers\BackToWebsite;
 use Illuminate\Support\ServiceProvider;
+use Illuminate\Contracts\Events\Dispatcher;
 
 class AppServiceProvider extends ServiceProvider
 {
     /**
      * Bootstrap any application services.
      *
+     * @param  \Illuminate\Contracts\Events\Dispatcher  $events
      * @return void
      */
-    public function boot()
+    public function boot(Dispatcher $events)
     {
-        //
+        $events->listen('orchestra.ready: admin', BacktoWebsite::class);
     }
 
     /**
