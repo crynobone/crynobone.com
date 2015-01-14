@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "dfb7c45ba9ce6fc133d780709984010d",
+    "hash": "7686834397e4ea2b7e0b8dc9be909a17",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -2229,12 +2229,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/stackie/medium-theme.git",
-                "reference": "b0ff9b89cccff3649b226dc94f160d1cf6d4fcd3"
+                "reference": "aa012accd013e5d067b7c3bf0908ab7124458012"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/stackie/medium-theme/zipball/b0ff9b89cccff3649b226dc94f160d1cf6d4fcd3",
-                "reference": "b0ff9b89cccff3649b226dc94f160d1cf6d4fcd3",
+                "url": "https://api.github.com/repos/stackie/medium-theme/zipball/aa012accd013e5d067b7c3bf0908ab7124458012",
+                "reference": "aa012accd013e5d067b7c3bf0908ab7124458012",
                 "shasum": ""
             },
             "require": {
@@ -2243,23 +2243,24 @@
             },
             "type": "orchestra-theme",
             "extra": {
-                "theme-name": "medium"
+                "theme-name": "medium",
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
             "authors": [
                 {
                     "name": "Mior Muhammad Zaki",
-                    "email": "crynobone@gmail.com"
+                    "email": "crynobone@gmail.com",
+                    "homepage": "https://github.com/crynobone"
                 }
             ],
             "description": "Medium-esque for Orchestra Story",
-            "support": {
-                "source": "https://github.com/stackie/medium-theme/tree/master",
-                "issues": "https://github.com/stackie/medium-theme/issues"
-            },
-            "time": "2015-01-14 15:37:08"
+            "time": "2015-01-14 15:44:52"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -4167,9 +4168,7 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": {
-        "stackie/medium-theme": 20
-    },
+    "stability-flags": [],
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
