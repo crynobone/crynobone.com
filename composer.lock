@@ -54,99 +54,6 @@
             "time": "2014-03-12 00:05:31"
         },
         {
-            "name": "composer/installers",
-            "version": "v1.0.19",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/composer/installers.git",
-                "reference": "89d77bfbee79e16653f7162c86e602cc188471db"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/composer/installers/zipball/89d77bfbee79e16653f7162c86e602cc188471db",
-                "reference": "89d77bfbee79e16653f7162c86e602cc188471db",
-                "shasum": ""
-            },
-            "replace": {
-                "roundcube/plugin-installer": "*",
-                "shama/baton": "*"
-            },
-            "require-dev": {
-                "composer/composer": "1.0.*@dev",
-                "phpunit/phpunit": "4.1.*"
-            },
-            "type": "composer-installer",
-            "extra": {
-                "class": "Composer\\Installers\\Installer",
-                "branch-alias": {
-                    "dev-master": "1.0-dev"
-                }
-            },
-            "autoload": {
-                "psr-0": {
-                    "Composer\\Installers\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Kyle Robinson Young",
-                    "email": "kyle@dontkry.com",
-                    "homepage": "https://github.com/shama"
-                }
-            ],
-            "description": "A multi-framework Composer library installer",
-            "homepage": "http://composer.github.com/installers/",
-            "keywords": [
-                "Craft",
-                "Dolibarr",
-                "Hurad",
-                "MODX Evo",
-                "OXID",
-                "Thelia",
-                "WolfCMS",
-                "agl",
-                "annotatecms",
-                "bitrix",
-                "cakephp",
-                "chef",
-                "codeigniter",
-                "concrete5",
-                "croogo",
-                "dokuwiki",
-                "drupal",
-                "elgg",
-                "fuelphp",
-                "grav",
-                "installer",
-                "joomla",
-                "kohana",
-                "laravel",
-                "lithium",
-                "magento",
-                "mako",
-                "mediawiki",
-                "modulework",
-                "moodle",
-                "phpbb",
-                "piwik",
-                "ppi",
-                "puppet",
-                "roundcube",
-                "shopware",
-                "silverstripe",
-                "symfony",
-                "typo3",
-                "wordpress",
-                "zend",
-                "zikula"
-            ],
-            "time": "2014-11-29 01:29:17"
-        },
-        {
             "name": "d11wtq/boris",
             "version": "v1.0.8",
             "source": {
@@ -2005,6 +1912,51 @@
             "time": "2015-01-02 03:24:25"
         },
         {
+            "name": "orchestra/theme-installer",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/orchestral/theme-installer.git",
+                "reference": "941e83ab68bd682e6a3428ba14e092da497ba3bb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/orchestral/theme-installer/zipball/941e83ab68bd682e6a3428ba14e092da497ba3bb",
+                "reference": "941e83ab68bd682e6a3428ba14e092da497ba3bb",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "1.0.*",
+                "illuminate/support": "~5.0",
+                "php": ">=5.4.0"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                },
+                "class": "Orchestra\\ThemeInstaller\\InstallerPlugin"
+            },
+            "autoload": {
+                "psr-4": {
+                    "Orchestra\\ThemeInstaller\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mior Muhammad Zaki",
+                    "email": "crynobone@gmail.com",
+                    "homepage": "https://github.com/crynobone"
+                }
+            ],
+            "description": "Theme Installer for Orchestra Platform",
+            "time": "2015-01-14 15:10:58"
+        },
+        {
             "name": "orchestra/translation",
             "version": "v3.0.0-BETA1",
             "source": {
@@ -2277,27 +2229,21 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/stackie/medium-theme.git",
-                "reference": "68973a381354e8b6bd234ab25571125aeedc55bc"
+                "reference": "b0ff9b89cccff3649b226dc94f160d1cf6d4fcd3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/stackie/medium-theme/zipball/68973a381354e8b6bd234ab25571125aeedc55bc",
-                "reference": "68973a381354e8b6bd234ab25571125aeedc55bc",
+                "url": "https://api.github.com/repos/stackie/medium-theme/zipball/b0ff9b89cccff3649b226dc94f160d1cf6d4fcd3",
+                "reference": "b0ff9b89cccff3649b226dc94f160d1cf6d4fcd3",
                 "shasum": ""
             },
             "require": {
-                "composer/installers": "~1.0",
+                "orchestra/theme-installer": "~1.0",
                 "php": ">=5.4.0"
             },
-            "type": "orchestraplatform-theme",
+            "type": "orchestra-theme",
             "extra": {
-                "installer-name": "medium",
-                "installer-paths": {
-                    "public/themes/{$name}/": [
-                        "stackie/medium-theme",
-                        "src"
-                    ]
-                }
+                "theme-name": "medium"
             },
             "license": [
                 "MIT"
@@ -2313,7 +2259,7 @@
                 "source": "https://github.com/stackie/medium-theme/tree/master",
                 "issues": "https://github.com/stackie/medium-theme/issues"
             },
-            "time": "2015-01-14 14:11:26"
+            "time": "2015-01-14 15:37:08"
         },
         {
             "name": "swiftmailer/swiftmailer",

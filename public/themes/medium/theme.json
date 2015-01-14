@@ -1,0 +1,8 @@
+{
+	"name": "Medium",
+	"description": "Medium-esque for Orchestra Story",
+	"author": "Derek Palladino",
+	"url": "http://www.derekpalladino.com/medium-esque",
+	"type": ["frontend"],
+	"autoload": []
+}
