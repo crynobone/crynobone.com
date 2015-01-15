@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "7686834397e4ea2b7e0b8dc9be909a17",
+    "hash": "6a1bf622e6b9c05a06f6e1d87e9ef60f",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -1912,51 +1912,6 @@
             "time": "2015-01-02 03:24:25"
         },
         {
-            "name": "orchestra/theme-installer",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/orchestral/theme-installer.git",
-                "reference": "941e83ab68bd682e6a3428ba14e092da497ba3bb"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/theme-installer/zipball/941e83ab68bd682e6a3428ba14e092da497ba3bb",
-                "reference": "941e83ab68bd682e6a3428ba14e092da497ba3bb",
-                "shasum": ""
-            },
-            "require": {
-                "composer-plugin-api": "1.0.*",
-                "illuminate/support": "~5.0",
-                "php": ">=5.4.0"
-            },
-            "type": "composer-plugin",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.0-dev"
-                },
-                "class": "Orchestra\\ThemeInstaller\\InstallerPlugin"
-            },
-            "autoload": {
-                "psr-4": {
-                    "Orchestra\\ThemeInstaller\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Mior Muhammad Zaki",
-                    "email": "crynobone@gmail.com",
-                    "homepage": "https://github.com/crynobone"
-                }
-            ],
-            "description": "Theme Installer for Orchestra Platform",
-            "time": "2015-01-14 15:10:58"
-        },
-        {
             "name": "orchestra/translation",
             "version": "v3.0.0-BETA1",
             "source": {
@@ -2222,45 +2177,6 @@
                 "psr-3"
             ],
             "time": "2012-12-21 11:40:51"
-        },
-        {
-            "name": "stackie/medium-theme",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/stackie/medium-theme.git",
-                "reference": "aa012accd013e5d067b7c3bf0908ab7124458012"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/stackie/medium-theme/zipball/aa012accd013e5d067b7c3bf0908ab7124458012",
-                "reference": "aa012accd013e5d067b7c3bf0908ab7124458012",
-                "shasum": ""
-            },
-            "require": {
-                "orchestra/theme-installer": "~1.0",
-                "php": ">=5.4.0"
-            },
-            "type": "orchestra-theme",
-            "extra": {
-                "theme-name": "medium",
-                "branch-alias": {
-                    "dev-master": "1.0-dev"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Mior Muhammad Zaki",
-                    "email": "crynobone@gmail.com",
-                    "homepage": "https://github.com/crynobone"
-                }
-            ],
-            "description": "Medium-esque for Orchestra Story",
-            "time": "2015-01-14 15:44:52"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -3211,6 +3127,51 @@
             "time": "2015-01-13 11:20:41"
         },
         {
+            "name": "orchestra/theme-installer",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/orchestral/theme-installer.git",
+                "reference": "17acaa31230ec81f43f14743ee04b516d73b3e03"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/orchestral/theme-installer/zipball/17acaa31230ec81f43f14743ee04b516d73b3e03",
+                "reference": "17acaa31230ec81f43f14743ee04b516d73b3e03",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "1.0.*",
+                "illuminate/support": "~5.0",
+                "php": ">=5.4.0"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                },
+                "class": "Orchestra\\ThemeInstaller\\InstallerPlugin"
+            },
+            "autoload": {
+                "psr-4": {
+                    "Orchestra\\ThemeInstaller\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mior Muhammad Zaki",
+                    "email": "crynobone@gmail.com",
+                    "homepage": "https://github.com/crynobone"
+                }
+            ],
+            "description": "Theme Installer for Orchestra Platform",
+            "time": "2015-01-14 16:41:53"
+        },
+        {
             "name": "phpdocumentor/reflection-docblock",
             "version": "2.0.3",
             "source": {
@@ -4117,6 +4078,45 @@
             "description": "Library that helps with managing the version number of Git-hosted PHP projects",
             "homepage": "https://github.com/sebastianbergmann/version",
             "time": "2014-12-15 14:25:24"
+        },
+        {
+            "name": "stackie/medium-theme",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/stackie/medium-theme.git",
+                "reference": "d7b132867ae836f4cd16124c5dd6e80466dbd9d5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/stackie/medium-theme/zipball/d7b132867ae836f4cd16124c5dd6e80466dbd9d5",
+                "reference": "d7b132867ae836f4cd16124c5dd6e80466dbd9d5",
+                "shasum": ""
+            },
+            "require": {
+                "orchestra/theme-installer": "~1.0",
+                "php": ">=5.4.0"
+            },
+            "type": "orchestra-theme",
+            "extra": {
+                "theme-name": "medium",
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mior Muhammad Zaki",
+                    "email": "crynobone@gmail.com",
+                    "homepage": "https://github.com/crynobone"
+                }
+            ],
+            "description": "Medium-esque for Orchestra Story",
+            "time": "2015-01-14 16:40:02"
         },
         {
             "name": "symfony/yaml",
