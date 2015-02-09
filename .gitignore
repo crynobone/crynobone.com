@@ -1,12 +1,6 @@
-# Laravel
+/.vagrant/*
+/node_modules/*
 /public/packages/*
+/vendor/*
 .env
 
-# Composer
-/vendor/*
-
-# Vagrant
-/.vagrant/*
-
-# Backup
-/backup/public/packages/*
