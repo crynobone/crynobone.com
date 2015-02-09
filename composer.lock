@@ -493,16 +493,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v5.0.0",
+            "version": "v5.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "44c61252b5762ff53ad181ed416e3006c50a6a9b"
+                "reference": "30391aa20874c30725f653bea1ea5b895a5217cf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/44c61252b5762ff53ad181ed416e3006c50a6a9b",
-                "reference": "44c61252b5762ff53ad181ed416e3006c50a6a9b",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/30391aa20874c30725f653bea1ea5b895a5217cf",
+                "reference": "30391aa20874c30725f653bea1ea5b895a5217cf",
                 "shasum": ""
             },
             "require": {
@@ -614,7 +614,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2015-02-04 13:59:07"
+            "time": "2015-02-06 23:14:12"
         },
         {
             "name": "league/flysystem",
@@ -1413,20 +1413,20 @@
         },
         {
             "name": "orchestra/kernel",
-            "version": "v3.0.0-BETA1",
+            "version": "v3.0.0-BETA2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/kernel.git",
-                "reference": "63cf5f84f7d677f234a3dd8570a181a5726f64a2"
+                "reference": "29fa37481bbfb0575bb4a703f95edd288a95c53a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/kernel/zipball/63cf5f84f7d677f234a3dd8570a181a5726f64a2",
-                "reference": "63cf5f84f7d677f234a3dd8570a181a5726f64a2",
+                "url": "https://api.github.com/repos/orchestral/kernel/zipball/29fa37481bbfb0575bb4a703f95edd288a95c53a",
+                "reference": "29fa37481bbfb0575bb4a703f95edd288a95c53a",
                 "shasum": ""
             },
             "require": {
-                "orchestra/support-core": "3.0.*",
+                "orchestra/support": "3.0.*",
                 "php": ">=5.4.0"
             },
             "replace": {
@@ -1442,7 +1442,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.0-dev"
+                    "dev-master": "3.1-dev"
                 }
             },
             "autoload": {
@@ -1465,7 +1465,7 @@
                 }
             ],
             "description": "Kernel for Orchestra Platform",
-            "time": "2015-01-19 02:09:18"
+            "time": "2015-02-07 05:27:44"
         },
         {
             "name": "orchestra/memory",
@@ -3199,6 +3199,49 @@
                 "testing"
             ],
             "time": "2015-02-05 00:26:32"
+        },
+        {
+            "name": "orchestra/testing",
+            "version": "3.0.x-dev",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/orchestral/testing.git",
+                "reference": "29b5a83e4545e1bad07b294058cb8fe6db8c2064"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/orchestral/testing/zipball/29b5a83e4545e1bad07b294058cb8fe6db8c2064",
+                "reference": "29b5a83e4545e1bad07b294058cb8fe6db8c2064",
+                "shasum": ""
+            },
+            "require": {
+                "orchestra/foundation": "3.0.*",
+                "orchestra/testbench": "3.0.*"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.1-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Orchestra\\Testing\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mior Muhammad Zaki",
+                    "email": "crynobone@gmail.com",
+                    "homepage": "https://github.com/crynobone"
+                }
+            ],
+            "description": "Orchestra Platform Testing Helper",
+            "time": "2015-02-06 03:15:47"
         },
         {
             "name": "orchestra/theme-installer",
