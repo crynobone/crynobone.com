@@ -8,15 +8,15 @@
 	"require": {
 		"php": ">=5.6.0",
 		"orchestra/foundation": "3.0.*",
-		"orchestra/installer": "3.0.*",
-		"orchestra/control": "3.0.*",
+		"orchestra/installer": "~3.0",
+		"orchestra/control": "~3.0",
 		"orchestra/story": "3.0.x-dev"
 	},
 	"require-dev": {
-		"orchestra/testing": "3.0.*",
+		"orchestra/testing": "~3.0",
 		"phpunit/phpunit": "~4.0",
 		"phpspec/phpspec": "~2.1",
-		"stackie/medium-theme": "~1.0"
+		"stackie/medium-theme": "1.0.x-dev"
 	},
 	"autoload": {
 		"classmap": [
@@ -49,7 +49,5 @@
 	},
 	"config": {
 		"preferred-install": "dist"
-	},
-	"prefer-stable": true,
-	"minimum-stability": "dev"
+	}
 }
