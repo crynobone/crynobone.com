@@ -493,16 +493,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v5.0.2",
+            "version": "v5.0.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "30391aa20874c30725f653bea1ea5b895a5217cf"
+                "reference": "b1aea041cbc0cd54563e2d3709a54a71eed57653"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/30391aa20874c30725f653bea1ea5b895a5217cf",
-                "reference": "30391aa20874c30725f653bea1ea5b895a5217cf",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/b1aea041cbc0cd54563e2d3709a54a71eed57653",
+                "reference": "b1aea041cbc0cd54563e2d3709a54a71eed57653",
                 "shasum": ""
             },
             "require": {
@@ -614,7 +614,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2015-02-06 23:14:12"
+            "time": "2015-02-13 19:10:59"
         },
         {
             "name": "league/flysystem",
@@ -1219,16 +1219,16 @@
         },
         {
             "name": "orchestra/foundation",
-            "version": "v3.0.0",
+            "version": "v3.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/foundation.git",
-                "reference": "93f8ef5b284486992ac7d56e85f2fad15c69fb64"
+                "reference": "ea3f0cde6d9e4bd12fca29d53ec0531fd08bbfa1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/foundation/zipball/93f8ef5b284486992ac7d56e85f2fad15c69fb64",
-                "reference": "93f8ef5b284486992ac7d56e85f2fad15c69fb64",
+                "url": "https://api.github.com/repos/orchestral/foundation/zipball/ea3f0cde6d9e4bd12fca29d53ec0531fd08bbfa1",
+                "reference": "ea3f0cde6d9e4bd12fca29d53ec0531fd08bbfa1",
                 "shasum": ""
             },
             "require": {
@@ -1292,7 +1292,7 @@
                 "orchestral",
                 "user-management"
             ],
-            "time": "2015-02-11 03:20:55"
+            "time": "2015-02-14 17:50:20"
         },
         {
             "name": "orchestra/html",
@@ -1414,16 +1414,16 @@
         },
         {
             "name": "orchestra/kernel",
-            "version": "v3.0.0",
+            "version": "v3.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/kernel.git",
-                "reference": "314654db2648d87d8a5a00951098f72ed3d3e2e8"
+                "reference": "1dea6b0ba4fb1c538f58637ff75d71ec71c9851f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/kernel/zipball/314654db2648d87d8a5a00951098f72ed3d3e2e8",
-                "reference": "314654db2648d87d8a5a00951098f72ed3d3e2e8",
+                "url": "https://api.github.com/repos/orchestral/kernel/zipball/1dea6b0ba4fb1c538f58637ff75d71ec71c9851f",
+                "reference": "1dea6b0ba4fb1c538f58637ff75d71ec71c9851f",
                 "shasum": ""
             },
             "require": {
@@ -1433,6 +1433,7 @@
             "replace": {
                 "orchestra/config": "self.version",
                 "orchestra/contracts": "self.version",
+                "orchestra/database": "self.version",
                 "orchestra/http": "self.version",
                 "orchestra/routing": "self.version"
             },
@@ -1466,7 +1467,7 @@
                 }
             ],
             "description": "Kernel for Orchestra Platform",
-            "time": "2015-02-10 09:26:07"
+            "time": "2015-02-13 16:07:24"
         },
         {
             "name": "orchestra/memory",
@@ -1883,16 +1884,16 @@
         },
         {
             "name": "orchestra/support",
-            "version": "v3.0.0",
+            "version": "v3.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/support.git",
-                "reference": "a8729509e67f3f1228d3a2425ab0705f968ad46e"
+                "reference": "a14f0d2624a8fcdf2d4aeeafbe2fd52910b16063"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/support/zipball/a8729509e67f3f1228d3a2425ab0705f968ad46e",
-                "reference": "a8729509e67f3f1228d3a2425ab0705f968ad46e",
+                "url": "https://api.github.com/repos/orchestral/support/zipball/a14f0d2624a8fcdf2d4aeeafbe2fd52910b16063",
+                "reference": "a14f0d2624a8fcdf2d4aeeafbe2fd52910b16063",
                 "shasum": ""
             },
             "require": {
@@ -1952,7 +1953,7 @@
                 "utilities",
                 "validator"
             ],
-            "time": "2015-02-04 15:54:27"
+            "time": "2015-02-14 01:39:46"
         },
         {
             "name": "orchestra/translation",
@@ -2221,16 +2222,16 @@
         },
         {
             "name": "psy/psysh",
-            "version": "v0.3.3",
+            "version": "v0.3.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/bobthecow/psysh.git",
-                "reference": "0355cecab0591c83fed019a9572c510b0da29174"
+                "reference": "2ce0e8f3020fd292c2ad2a496c5d83939823f642"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bobthecow/psysh/zipball/0355cecab0591c83fed019a9572c510b0da29174",
-                "reference": "0355cecab0591c83fed019a9572c510b0da29174",
+                "url": "https://api.github.com/repos/bobthecow/psysh/zipball/2ce0e8f3020fd292c2ad2a496c5d83939823f642",
+                "reference": "2ce0e8f3020fd292c2ad2a496c5d83939823f642",
                 "shasum": ""
             },
             "require": {
@@ -2280,14 +2281,14 @@
                 }
             ],
             "description": "An interactive shell for modern PHP.",
-            "homepage": "https://github.com/bobthecow/psysh",
+            "homepage": "http://psysh.org",
             "keywords": [
                 "REPL",
                 "console",
                 "interactive",
                 "shell"
             ],
-            "time": "2015-01-20 21:18:03"
+            "time": "2015-02-12 19:35:52"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -3139,55 +3140,6 @@
                 "instantiate"
             ],
             "time": "2014-10-13 12:58:55"
-        },
-        {
-            "name": "orchestra/database",
-            "version": "v3.0.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/orchestral/database.git",
-                "reference": "2232c9d5750894acf70153cc1a3d4f85b04836c6"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/database/zipball/2232c9d5750894acf70153cc1a3d4f85b04836c6",
-                "reference": "2232c9d5750894acf70153cc1a3d4f85b04836c6",
-                "shasum": ""
-            },
-            "require": {
-                "illuminate/contracts": "5.0.*",
-                "illuminate/database": "5.0.*",
-                "php": ">=5.4.0"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "3.1-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Orchestra\\Database\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Mior Muhammad Zaki",
-                    "email": "crynobone@gmail.com",
-                    "homepage": "https://github.com/crynobone"
-                },
-                {
-                    "name": "Taylor Otwell",
-                    "email": "taylorotwell@gmail.com",
-                    "homepage": "https://github.com/taylorotwell"
-                }
-            ],
-            "description": "Database Component for Orchestra Platform",
-            "time": "2015-02-10 09:20:46"
         },
         {
             "name": "orchestra/testbench",
