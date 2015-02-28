@@ -47,11 +47,8 @@
 
                         <div class="form-group">
                             <div class="col-md-6 col-md-offset-4">
-                                <button type="submit" class="btn btn-primary" style="margin-right: 15px;">
-                                    Login
-                                </button>
-
-                                <a href="{{ handles('app::password/email') }}">Forgot Your Password?</a>
+                                <button type="submit" class="btn btn-primary">Login</button>
+                                <a href="{{ handles('app::password/email') }}" class="btn btn-link">Forgot Your Password?</a>
                             </div>
                         </div>
                     </form>
