@@ -95,7 +95,7 @@ return [
     |
     */
 
-    'log' => 'daily',
+    'log' => 'single',
 
     /*
     |--------------------------------------------------------------------------
@@ -113,6 +113,7 @@ return [
         /*
          * Laravel Framework Service Providers...
          */
+        'Illuminate\Broadcasting\BroadcastServiceProvider',
         'Illuminate\Bus\BusServiceProvider',
         'Illuminate\Cache\CacheServiceProvider',
         'Illuminate\Cookie\CookieServiceProvider',
@@ -152,11 +153,10 @@ return [
         'Orchestra\Widget\WidgetServiceProvider',
 
         'Orchestra\Foundation\Providers\ConsoleSupportServiceProvider',
-        'Orchestra\Foundation\Providers\FilterServiceProvider',
         'Orchestra\Foundation\Providers\FoundationServiceProvider',
 
         /**
-         * Orchestra Platform Installer Service Providers...
+         * Orchestra Platform Optional Service Providers...
          */
         'Orchestra\Installation\InstallerServiceProvider',
 
@@ -164,8 +164,6 @@ return [
          * Application Service Providers...
          */
         'App\Providers\AppServiceProvider',
-        'App\Providers\BusServiceProvider',
-        'App\Providers\ConfigServiceProvider',
         'App\Providers\EventServiceProvider',
         'App\Providers\ExtensionServiceProvider',
         'App\Providers\RouteServiceProvider',
