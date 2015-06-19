@@ -3,9 +3,12 @@
 use App\Http\Handlers\BackToWebsite;
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Contracts\Events\Dispatcher;
+use Orchestra\Extension\Traits\DomainAwareTrait;
 
 class AppServiceProvider extends ServiceProvider
 {
+    use DomainAwareTrait;
+
     /**
      * Bootstrap any application services.
      *
