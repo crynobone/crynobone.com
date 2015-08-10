@@ -6,6 +6,15 @@ use Illuminate\Database\Eloquent\Model;
 class DatabaseSeeder extends Seeder
 {
     /**
+     * List of seeders.
+     *
+     * @var array
+     */
+    protected $seeders = [
+        // UserTableSeeder::class,
+    ];
+
+    /**
      * Run the database seeds.
      *
      * @return void
@@ -14,6 +23,10 @@ class DatabaseSeeder extends Seeder
     {
         Model::unguard();
 
-        $this->call('ContentTableSeeder');
+        foreach ($this->seeders as $seeder) {
+            $this->call($seeder);
+        }
+
+        Model::reguard();
     }
 }

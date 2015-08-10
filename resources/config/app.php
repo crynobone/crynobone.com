@@ -156,7 +156,7 @@ return [
         Orchestra\Foundation\Providers\FoundationServiceProvider::class,
         Orchestra\Foundation\Providers\RouteServiceProvider::class,
 
-        /**
+        /*
          * Orchestra Platform Optional Service Providers...
          */
         Orchestra\Installation\InstallerServiceProvider::class,
