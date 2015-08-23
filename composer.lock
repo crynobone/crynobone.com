@@ -4521,12 +4521,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/stackie/adminlte-theme.git",
-                "reference": "75948bbdfd2c13b005f3b2ebc7d0efb51fe574b0"
+                "reference": "c8b7e7ef98348845ee88be494b53a26902e1ccd4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/stackie/adminlte-theme/zipball/75948bbdfd2c13b005f3b2ebc7d0efb51fe574b0",
-                "reference": "75948bbdfd2c13b005f3b2ebc7d0efb51fe574b0",
+                "url": "https://api.github.com/repos/stackie/adminlte-theme/zipball/c8b7e7ef98348845ee88be494b53a26902e1ccd4",
+                "reference": "c8b7e7ef98348845ee88be494b53a26902e1ccd4",
                 "shasum": ""
             },
             "require": {
@@ -4553,7 +4553,7 @@
                 }
             ],
             "description": "AdminLTE Theme for Orchestra Platform",
-            "time": "2015-08-11 01:41:06"
+            "time": "2015-08-23 13:14:11"
         },
         {
             "name": "stackie/medium-theme",
