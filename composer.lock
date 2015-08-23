@@ -1630,16 +1630,16 @@
         },
         {
             "name": "orchestra/notifier",
-            "version": "v3.1.3",
+            "version": "v3.1.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/notifier.git",
-                "reference": "02ece0820642ab09fe1750fcc436f62c9bdbfed9"
+                "reference": "fc44b418cf5f842ed2cd1755528748d43d4a29a8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/notifier/zipball/02ece0820642ab09fe1750fcc436f62c9bdbfed9",
-                "reference": "02ece0820642ab09fe1750fcc436f62c9bdbfed9",
+                "url": "https://api.github.com/repos/orchestral/notifier/zipball/fc44b418cf5f842ed2cd1755528748d43d4a29a8",
+                "reference": "fc44b418cf5f842ed2cd1755528748d43d4a29a8",
                 "shasum": ""
             },
             "require": {
@@ -1682,7 +1682,7 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2015-08-11 02:40:26"
+            "time": "2015-08-22 19:14:48"
         },
         {
             "name": "orchestra/optimize",
