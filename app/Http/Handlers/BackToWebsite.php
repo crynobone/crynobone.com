@@ -13,7 +13,7 @@ class BackToWebsite extends MenuHandler
         'id'       => 'back-to-website',
         'position' => '^:home',
         'title'    => 'Back to website',
-        'link'     => 'app::/',
+        'link'     => 'app::posts',
         'icon'     => null,
     ];
 
