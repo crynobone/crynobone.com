@@ -1059,16 +1059,16 @@
         },
         {
             "name": "orchestra/control",
-            "version": "v3.1.2",
+            "version": "v3.1.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/control.git",
-                "reference": "232c1909214658381dca5761683a74c9607abba4"
+                "reference": "83a264ac644aac94ae138af322f8669974c61c8a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/control/zipball/232c1909214658381dca5761683a74c9607abba4",
-                "reference": "232c1909214658381dca5761683a74c9607abba4",
+                "url": "https://api.github.com/repos/orchestral/control/zipball/83a264ac644aac94ae138af322f8669974c61c8a",
+                "reference": "83a264ac644aac94ae138af322f8669974c61c8a",
                 "shasum": ""
             },
             "require": {
@@ -1078,7 +1078,7 @@
             },
             "require-dev": {
                 "mockery/mockery": "^0.9.1",
-                "orchestra/foundation": "~3.1.0"
+                "orchestra/foundation": "~3.1.14"
             },
             "type": "library",
             "extra": {
@@ -1115,7 +1115,7 @@
                 "theme",
                 "timezone"
             ],
-            "time": "2015-09-07 01:11:33"
+            "time": "2015-09-15 15:27:39"
         },
         {
             "name": "orchestra/extension",
@@ -1242,16 +1242,16 @@
         },
         {
             "name": "orchestra/foundation",
-            "version": "v3.1.13",
+            "version": "v3.1.14",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/foundation.git",
-                "reference": "aa0fd1c0d6d55a51dfcd6cbedfae47aea13b36e9"
+                "reference": "974aa4ac87e553fd9f0f55e63240f670510e2f6d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/foundation/zipball/aa0fd1c0d6d55a51dfcd6cbedfae47aea13b36e9",
-                "reference": "aa0fd1c0d6d55a51dfcd6cbedfae47aea13b36e9",
+                "url": "https://api.github.com/repos/orchestral/foundation/zipball/974aa4ac87e553fd9f0f55e63240f670510e2f6d",
+                "reference": "974aa4ac87e553fd9f0f55e63240f670510e2f6d",
                 "shasum": ""
             },
             "require": {
@@ -1320,7 +1320,7 @@
                 "orchestral",
                 "user-management"
             ],
-            "time": "2015-09-14 11:54:52"
+            "time": "2015-09-15 14:55:16"
         },
         {
             "name": "orchestra/html",
@@ -1749,16 +1749,16 @@
         },
         {
             "name": "orchestra/optimize",
-            "version": "v3.1.4",
+            "version": "v3.1.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/optimize.git",
-                "reference": "a476e73d591a758b9ff77c836403334f8ebd417d"
+                "reference": "12a542f9dbf67352c88d51fba01bfc8e033ad88a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/optimize/zipball/a476e73d591a758b9ff77c836403334f8ebd417d",
-                "reference": "a476e73d591a758b9ff77c836403334f8ebd417d",
+                "url": "https://api.github.com/repos/orchestral/optimize/zipball/12a542f9dbf67352c88d51fba01bfc8e033ad88a",
+                "reference": "12a542f9dbf67352c88d51fba01bfc8e033ad88a",
                 "shasum": ""
             },
             "require": {
@@ -1798,7 +1798,7 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2015-09-12 19:28:07"
+            "time": "2015-09-15 15:13:44"
         },
         {
             "name": "orchestra/publisher",
@@ -1864,16 +1864,16 @@
         },
         {
             "name": "orchestra/story",
-            "version": "v3.1.4",
+            "version": "v3.1.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/story.git",
-                "reference": "3cd7eb59943b87abfd70ea9df0e05357d9003996"
+                "reference": "3576f62f35781a43483cfb5095082aa935d63921"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/story/zipball/3cd7eb59943b87abfd70ea9df0e05357d9003996",
-                "reference": "3cd7eb59943b87abfd70ea9df0e05357d9003996",
+                "url": "https://api.github.com/repos/orchestral/story/zipball/3576f62f35781a43483cfb5095082aa935d63921",
+                "reference": "3576f62f35781a43483cfb5095082aa935d63921",
                 "shasum": ""
             },
             "require": {
@@ -1886,7 +1886,7 @@
             },
             "require-dev": {
                 "mockery/mockery": "^0.9.1",
-                "orchestra/foundation": "~3.1.0"
+                "orchestra/foundation": "~3.1.14"
             },
             "type": "library",
             "extra": {
@@ -1920,7 +1920,7 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2015-09-07 04:06:17"
+            "time": "2015-09-15 15:38:46"
         },
         {
             "name": "orchestra/support",
@@ -3965,16 +3965,16 @@
         },
         {
             "name": "phpunit/php-token-stream",
-            "version": "1.4.6",
+            "version": "1.4.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/php-token-stream.git",
-                "reference": "3ab72c62e550370a6cd5dc873e1a04ab57562f5b"
+                "reference": "3144ae21711fb6cac0b1ab4cbe63b75ce3d4e8da"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/php-token-stream/zipball/3ab72c62e550370a6cd5dc873e1a04ab57562f5b",
-                "reference": "3ab72c62e550370a6cd5dc873e1a04ab57562f5b",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-token-stream/zipball/3144ae21711fb6cac0b1ab4cbe63b75ce3d4e8da",
+                "reference": "3144ae21711fb6cac0b1ab4cbe63b75ce3d4e8da",
                 "shasum": ""
             },
             "require": {
@@ -4010,7 +4010,7 @@
             "keywords": [
                 "tokenizer"
             ],
-            "time": "2015-08-16 08:51:00"
+            "time": "2015-09-15 10:49:45"
         },
         {
             "name": "phpunit/phpunit",
