@@ -1,5 +1,8 @@
 {
     "name": "crynobone/website",
+    "description": "Source code for crynobone.com",
+    "license": "proprietary",
+    "type": "project",
     "require": {
         "php": ">=5.6.0",
         "orchestra/foundation": "~3.1.2",
