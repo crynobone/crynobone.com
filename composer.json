@@ -8,14 +8,15 @@
         "orchestra/foundation": "~3.1.15",
         "orchestra/installer": "~3.1",
         "orchestra/control": "~3.1",
-        "orchestra/story": "~3.1",
+        "orchestra/story": "~3.1.7",
         "orchestra/avatar": "~3.1"
     },
     "require-dev": {
         "orchestra/testing": "~3.1",
         "phpspec/phpspec": "~2.1",
         "stackie/medium-theme": "~1.0",
-        "stackie/adminlte-theme": "~1.0"
+        "stackie/adminlte-theme": "~1.0",
+        "laravel/homestead": "~2.1.8"
     },
     "autoload": {
         "classmap": [
