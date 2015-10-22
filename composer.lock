@@ -1125,16 +1125,16 @@
         },
         {
             "name": "orchestra/extension",
-            "version": "3.1.x-dev",
+            "version": "v3.1.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/extension.git",
-                "reference": "d72dfaa37928debf2549e08065fb6c365ab2fca1"
+                "reference": "2d21b5b5bce503b80fa6f2b8aa252fcd4027e951"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/extension/zipball/d72dfaa37928debf2549e08065fb6c365ab2fca1",
-                "reference": "d72dfaa37928debf2549e08065fb6c365ab2fca1",
+                "url": "https://api.github.com/repos/orchestral/extension/zipball/2d21b5b5bce503b80fa6f2b8aa252fcd4027e951",
+                "reference": "2d21b5b5bce503b80fa6f2b8aa252fcd4027e951",
                 "shasum": ""
             },
             "require": {
@@ -1183,7 +1183,7 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2015-10-22 00:49:08"
+            "time": "2015-10-22 01:16:45"
         },
         {
             "name": "orchestra/facile",
