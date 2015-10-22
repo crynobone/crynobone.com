@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "e3bfd7b8459365b8131c3ee6b1cc19ac",
-    "content-hash": "ae2ba5d8164519ecd6b118eccf8e017d",
+    "hash": "f497c18adeb286e10321f71bb1997ae4",
+    "content-hash": "47ad989ea83eb1742981c898dff21a03",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -1125,16 +1125,16 @@
         },
         {
             "name": "orchestra/extension",
-            "version": "v3.1.9",
+            "version": "3.1.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/extension.git",
-                "reference": "c824a6c3bc795b0e4785568d7e40daa13e58c6b9"
+                "reference": "d72dfaa37928debf2549e08065fb6c365ab2fca1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/extension/zipball/c824a6c3bc795b0e4785568d7e40daa13e58c6b9",
-                "reference": "c824a6c3bc795b0e4785568d7e40daa13e58c6b9",
+                "url": "https://api.github.com/repos/orchestral/extension/zipball/d72dfaa37928debf2549e08065fb6c365ab2fca1",
+                "reference": "d72dfaa37928debf2549e08065fb6c365ab2fca1",
                 "shasum": ""
             },
             "require": {
@@ -1183,7 +1183,7 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2015-10-03 05:57:36"
+            "time": "2015-10-22 00:49:08"
         },
         {
             "name": "orchestra/facile",
