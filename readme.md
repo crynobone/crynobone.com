@@ -7,7 +7,7 @@ Orchestra Platform is an admin panel that handles Laravel extensions and user ma
 [![Latest Stable Version](https://img.shields.io/github/release/orchestral/platform.svg?style=flat-square)](https://packagist.org/packages/orchestra/platform)
 [![Total Downloads](https://img.shields.io/packagist/dt/orchestra/platform.svg?style=flat-square)](https://packagist.org/packages/orchestra/platform)
 [![MIT License](https://img.shields.io/packagist/l/orchestra/platform.svg?style=flat-square)](https://packagist.org/packages/orchestra/platform)
-[![Build Status](https://img.shields.io/travis/orchestral/platform/3.1.svg?style=flat-square)](https://travis-ci.org/orchestral/platform)
+[![Build Status](https://img.shields.io/travis/orchestral/platform/3.2.svg?style=flat-square)](https://travis-ci.org/orchestral/platform)
 
 ## Table of Content
 
@@ -26,12 +26,11 @@ Laravel    | Platform
  4.2.x     | 2.2.x
  5.0.x     | 3.0.x
  5.1.x     | 3.1.x
+ 5.2.x     | 3.2.x@dev
 
 ## Quick Installation
 
-```bash
-composer create-project orchestra/platform your-project-name --prefer-dist
-```
+    composer create-project orchestra/platform your-project-name --prefer-dist
 
 ## Resources
 
@@ -47,12 +46,13 @@ Contributions can be made to the Orchestra Platform's respective component repos
 * [Asset](https://github.com/orchestral/asset)
 * [Auth](https://github.com/orchestral/auth)
   - [Authorization](https://github.com/orchestral/authorization)
+* [Contracts](https://github.com/orchestral/contracts)
 * [Extension](https://github.com/orchestral/extension)
 * [Foundation](https://github.com/orchestral/foundation)
 * [Html](https://github.com/orchestral/html)
 * [Kernel](https://github.com/orchestral/kernel)
   - [Config](https://github.com/orchestral/config)
-  - [Contracts](https://github.com/orchestral/contracts)
+  - [Database](https://github.com/orchestral/database)
   - [Http](https://github.com/orchestral/http)
   - [Routing](https://github.com/orchestral/routing)
 * [Memory](https://github.com/orchestral/memory)
@@ -65,7 +65,6 @@ Contributions can be made to the Orchestra Platform's respective component repos
   - [Core](https://github.com/orchestral/support-core)
   - [Facades](https://github.com/orchestral/support-facades)
   - [Providers](https://github.com/orchestral/support-providers)
-* [Testing](https://github.com/orchestral/testing)
 * [Translation](https://github.com/orchestral/translation)
 * [View](https://github.com/orchestral/view)
 * [Widget](https://github.com/orchestral/widget)
@@ -82,6 +81,7 @@ We also have some independence packages that would work well with Orchestra Plat
 * [Studio](https://github.com/orchestral/studio)
 * [Tenanti](https://github.com/orchestral/tenanti)
 * [Testbench](https://github.com/orchestral/testbench)
+* [Testing](https://github.com/orchestral/testing)
 * [Transporter](https://github.com/orchestral/transporter)
 
 Contributions for the website and documentation can be made here:
