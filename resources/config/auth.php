@@ -112,7 +112,7 @@ return [
     | that is your welcome e-mail.
     */
 
-    'register' => [
+    'registers' => [
         'email' => 'emails.auth.register',
     ],
 
