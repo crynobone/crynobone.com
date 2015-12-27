@@ -1,5 +1,4 @@
 * text=auto
-
-# Ignore following folder/file.
 *.css linguist-vendored
 *.js linguist-vendored
+

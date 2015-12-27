@@ -14,7 +14,7 @@ return [
     */
 
     'defaults' => [
-        'guard' => 'web',
+        'guard'     => 'web',
         'passwords' => 'users',
     ],
 
@@ -25,9 +25,9 @@ return [
     |
     | Next, you may define every authentication guard for your application.
     | Of course, a great default configuration has been defined for you
-    | here which uses "session" storage and the Eloquent user source.
+    | here which uses session storage and the Eloquent user provider.
     |
-    | All authentication drivers have a user "source". This defines how the
+    | All authentication drivers have a user provider. This defines how the
     | users are actually retrieved out of your database or other storage
     | mechanisms used by this application to persist your user's data.
     |
@@ -37,22 +37,22 @@ return [
 
     'guards' => [
         'web' => [
-            'driver' => 'session',
-            'source' => 'users',
+            'driver'   => 'session',
+            'provider' => 'users',
         ],
 
         'api' => [
-            'driver' => 'token',
-            'source' => 'users',
+            'driver'   => 'token',
+            'provider' => 'users',
         ],
     ],
 
     /*
     |--------------------------------------------------------------------------
-    | User Sources
+    | User Providers
     |--------------------------------------------------------------------------
     |
-    | All authentication drivers have a user "source". This defines how the
+    | All authentication drivers have a user provider. This defines how the
     | users are actually retrieved out of your database or other storage
     | mechanisms used by this application to persist your user's data.
     |
@@ -64,7 +64,7 @@ return [
     |
     */
 
-    'sources' => [
+    'providers' => [
         'users' => [
             'driver' => 'eloquent',
             'model'  => App\User::class,
@@ -87,7 +87,7 @@ return [
     |
     | You may specify multiple password reset configurations if you have more
     | than one user table or model in the application and you want to have
-    | seperate password reset settings based on the specific user types.
+    | separate password reset settings based on the specific user types.
     |
     | The expire time is the number of minutes that the reset token should be
     | considered valid. This security feature keeps tokens short-lived so
@@ -97,10 +97,10 @@ return [
 
     'passwords' => [
         'users' => [
-            'source' => 'users',
-            'email'  => 'emails.auth.password',
-            'table'  => 'password_resets',
-            'expire' => 60,
+            'provider' => 'users',
+            'email'    => 'emails.auth.password',
+            'table'    => 'password_resets',
+            'expire'   => 60,
         ],
     ],
 
